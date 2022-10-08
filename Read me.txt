@@ -1,0 +1,24 @@
+Folder Description
+
+A.Double Pendulum Project includes the following folders
+1. Joint space PID matlab/simulink files
+2. Joint space PD w/g controlled matlab/simulink files
+3. Operational space PD w/g matlab/simulink files
+4. Operational space Inverse dynamics matlab/simulink files
+5. Report files containting relevant documentation
+6. Robotics Toolbox for MATLAB
+7. Videos (demonstrations of results)
+8. Robotics_2018 (Including theory that the simulation was worked upon)
+
+B.Each of the first 4 simulation files includes
+I-Pendulum dynamics m file
+II-Parameters m file
+III-Planned trajectory m files
+IV- Run files
+Simulink models and other m files to plot results
+
+Instructions
+1.To run the files, first make sure to include Robotics toolbox
+to your work place just like any other toolbox
+2. Open one of the 4 simulation files, and run file number IV to
+run simulation, and produce angle vs time results, and an animation

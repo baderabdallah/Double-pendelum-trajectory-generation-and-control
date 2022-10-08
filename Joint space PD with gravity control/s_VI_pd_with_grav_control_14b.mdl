@@ -1,0 +1,2526 @@
+Model {
+  Name			  "s_VI_pd_with_grav_control_14bb"
+  Version		  8.4
+  SavedCharacterEncoding  "windows-1252"
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.25"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  slprops.hdlmdlprops {
+    $PropName		    "HDLParams"
+    $ObjectID		    1
+    Array {
+      Type		      "Cell"
+      Dimension		      2
+      Cell		      "HDLSubsystem"
+      Cell		      "s_VI_pd_with_grav_control_14bb"
+      PropName		      "mdlProps"
+    }
+  }
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    2
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      3
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [-8.0, -8.0, 1382.0, 744.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Object {
+	$PropName		"EditorsInfo"
+	$ObjectID		6
+	$ClassName		"Simulink.EditorInfo"
+	IsActive		[1]
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[1328.0, 563.0]
+	ZoomFactor		[0.8]
+	Offset			[18.639833985768405, 238.97472747238817]
+      }
+    }
+  }
+  Created		  "Sat Apr 21 13:59:41 2018"
+  Creator		  "a_bad"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "a_bad"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Mon May 14 12:53:34 2018"
+  RTWModifiedTimeStamp	  448203213
+  ModelVersionFormat	  "1.%<AutoIncrement:25>"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  on
+  ShowPortDataTypes	  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    8
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "s_VI_pd_with_grav_control_14bb"
+    overrideMode_	    [0.0]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "s_VI_pd_with_grav_control_14bb"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dwe"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  off
+  CovForceBlockReductionOff on
+  CovEnableCumulative	  on
+  covSaveCumulativeToWorkspaceVar off
+  CovSaveSingleToWorkspaceVar off
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  on
+  CovSFcnEnable		  on
+  CovBoundaryAbsTol	  0.000010
+  CovBoundaryRelTol	  0.010000
+  CovUseTimeInterval	  off
+  CovStartTime		  0
+  CovStopTime		  0
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      9
+      Version		      "1.14.3"
+      Array {
+	Type			"Handle"
+	Dimension		9
+	Simulink.SolverCC {
+	  $ObjectID		  10
+	  Version		  "1.14.3"
+	  StartTime		  "0.0"
+	  StopTime		  "10.0"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "SingleTasking"
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  Solver		  "ode45"
+	  SolverName		  "ode45"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  11
+	  Version		  "1.14.3"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  off
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "StructureWithTime"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  12
+	  Version		  "1.14.3"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  UseDivisionForNetSlopeComputation "Off"
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  ExpressionDepthLimit	  128
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  13
+	  Version		  "1.14.3"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "none"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Simplified"
+	  MergeDetectMultiDrivingBlocksExec "error"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "none"
+	  InheritedTsInSrcMsg	  "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "EnableAllAsError"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "none"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "error"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "error"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  IntegerSaturationMsg	  "warning"
+	  ModelReferenceCSMismatchMessage "none"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  14
+	  Version		  "1.14.3"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  64
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "Float"
+	  ProdIntDivRoundTo	  "Zero"
+	  ProdEndianess		  "LittleEndian"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "Specified"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  15
+	  Version		  "1.14.3"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel on
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  16
+	  Version		  "1.14.3"
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  17
+	  Version		  "1.14.3"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    16
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateMissedCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  RTWCompilerOptimization "Off"
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      18
+	      Version		      "1.14.3"
+	      Array {
+		Type			"Cell"
+		Dimension		28
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"BlockCommentType"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InternalIdentifier"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrModelFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"CustomSymbolStrEmxType"
+		Cell			"CustomSymbolStrEmxFcn"
+		Cell			"CustomUserTokenString"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      19
+	      Version		      "1.14.3"
+	      Array {
+		Type			"Cell"
+		Dimension		15
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"ExistingSharedCode"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"GenerateAllocFcn"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"RemoveDisableFunc"
+		Cell			"RemoveResetFunc"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C99 (ISO)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Use local settings"
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      ParenthesesLevel	      "Nominal"
+	      CastingMode	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      GenerateSharedConstants on
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  21
+	  Version		  "1.14.3"
+	  Description		  "HDL Coder custom configuration component"
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    " "
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Diagnostics"
+      ConfigPrmDlgPosition    [ 71, 71, 1061, 699 ]
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    9
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    22
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+    AutoInsertRateTranBlk   [0]
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "left"
+    VerticalAlignment	    "top"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "on"
+    RunInitForIconRedraw    "off"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Demux
+      Outputs		      "4"
+      DisplayOption	      "none"
+      BusSelectionMode	      off
+    }
+    Block {
+      BlockType		      From
+      GotoTag		      "A"
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      FromWorkspace
+      VariableName	      "simulink_input"
+      OutDataTypeStr	      "Inherit: auto"
+      SampleTime	      "-1"
+      Interpolate	      on
+      ZeroCross		      off
+      OutputAfterFinalValue   "Extrapolation"
+    }
+    Block {
+      BlockType		      Gain
+      Gain		      "1"
+      Multiplication	      "Element-wise(K.*u)"
+      ParamMin		      "[]"
+      ParamMax		      "[]"
+      ParamDataTypeStr	      "Inherit: Same as input"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Goto
+      GotoTag		      "A"
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Mux
+      Inputs		      "4"
+      DisplayOption	      "none"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      NonVirtualBus	      off
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+      OutputWhenUnConnected   off
+    }
+    Block {
+      BlockType		      S-Function
+      FunctionName	      "system"
+      SFunctionModules	      "''"
+      PortCounts	      "[]"
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      ContentPreviewEnabled   off
+    }
+    Block {
+      BlockType		      Sum
+      IconShape		      "rectangular"
+      Inputs		      "++"
+      CollapseMode	      "All dimensions"
+      CollapseDim	      "1"
+      InputSameDT	      on
+      AccumDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as first input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Terminator
+    }
+    Block {
+      BlockType		      ToWorkspace
+      VariableName	      "simulink_output"
+      MaxDataPoints	      "1000"
+      Decimation	      "1"
+      SaveFormat	      "Array"
+      Save2DSignal	      "Inherit from input (this choice will be removed - see release notes)"
+      FixptAsFi		      off
+      NumInputs		      "1"
+      SampleTime	      "0"
+    }
+  }
+  System {
+    Name		    "s_VI_pd_with_grav_control_14bb"
+    Location		    [-8, -8, 1374, 736]
+    Open		    off
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "80"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "115"
+    Block {
+      BlockType		      ToWorkspace
+      Name		      "Angles_rad"
+      SID		      "70"
+      Ports		      [1]
+      Position		      [855, 535, 915, 565]
+      ZOrder		      143
+      VariableName	      "q"
+      MaxDataPoints	      "inf"
+      SaveFormat	      "Timeseries"
+      Save2DSignal	      "3-D array (concatenate along third dimension)"
+      FixptAsFi		      on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      ToWorkspace
+      Name		      "Angularvelocity_rad/s"
+      SID		      "71"
+      Ports		      [1]
+      Position		      [855, 590, 915, 620]
+      ZOrder		      144
+      VariableName	      "q_dot"
+      MaxDataPoints	      "inf"
+      SaveFormat	      "Timeseries"
+      Save2DSignal	      "3-D array (concatenate along third dimension)"
+      FixptAsFi		      on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Demux
+      Name		      "Demux"
+      SID		      "1"
+      Ports		      [1, 2]
+      Position		      [680, 423, 685, 472]
+      ZOrder		      86
+      ShowName		      off
+      Outputs		      "2"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Demux
+      Name		      "Demux1"
+      SID		      "109"
+      Ports		      [1, 2]
+      Position		      [795, 333, 800, 382]
+      ZOrder		      163
+      BlockMirror	      on
+      ShowName		      off
+      Outputs		      "2"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Demux
+      Name		      "Demux2"
+      SID		      "111"
+      Ports		      [1, 2]
+      Position		      [460, 360, 465, 420]
+      ZOrder		      165
+      ShowName		      off
+      Outputs		      "2"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Demux
+      Name		      "Demux4"
+      SID		      "47"
+      Ports		      [1, 2]
+      Position		      [680, 571, 685, 629]
+      ZOrder		      120
+      ShowName		      off
+      Outputs		      "2"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      From
+      Name		      "From"
+      SID		      "43"
+      Position		      [505, 636, 545, 664]
+      ZOrder		      116
+      BackgroundColor	      "green"
+      GotoTag		      "q"
+    }
+    Block {
+      BlockType		      FromWorkspace
+      Name		      "From\nWorkspace"
+      SID		      "55"
+      Position		      [395, 593, 460, 617]
+      ZOrder		      128
+      BackgroundColor	      "orange"
+      DropShadow	      on
+      ShowName		      off
+      VariableName	      "q1d"
+      SampleTime	      "0"
+      ZeroCross		      on
+    }
+    Block {
+      BlockType		      FromWorkspace
+      Name		      "From\nWorkspace1"
+      SID		      "57"
+      Position		      [395, 618, 460, 642]
+      ZOrder		      130
+      BackgroundColor	      "orange"
+      DropShadow	      on
+      ShowName		      off
+      VariableName	      "q2d"
+      SampleTime	      "0"
+      ZeroCross		      on
+    }
+    Block {
+      BlockType		      FromWorkspace
+      Name		      "From\nWorkspace2"
+      SID		      "59"
+      Position		      [395, 518, 460, 542]
+      ZOrder		      132
+      BackgroundColor	      "orange"
+      DropShadow	      on
+      ShowName		      off
+      VariableName	      "q1d_dot"
+      SampleTime	      "0"
+      ZeroCross		      on
+    }
+    Block {
+      BlockType		      FromWorkspace
+      Name		      "From\nWorkspace3"
+      SID		      "60"
+      Position		      [395, 543, 460, 567]
+      ZOrder		      133
+      BackgroundColor	      "orange"
+      DropShadow	      on
+      ShowName		      off
+      VariableName	      "q2d_dot"
+      SampleTime	      "0"
+      ZeroCross		      on
+    }
+    Block {
+      BlockType		      From
+      Name		      "From1"
+      SID		      "49"
+      Position		      [505, 561, 545, 589]
+      ZOrder		      122
+      BackgroundColor	      "cyan"
+      GotoTag		      "q_dot"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "Goto"
+      SID		      "44"
+      Position		      [765, 570, 805, 600]
+      ZOrder		      117
+      BackgroundColor	      "green"
+      GotoTag		      "q"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "Goto1"
+      SID		      "48"
+      Position		      [765, 610, 805, 640]
+      ZOrder		      121
+      BackgroundColor	      "cyan"
+      GotoTag		      "q_dot"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux1"
+      SID		      "3"
+      Ports		      [4, 1]
+      Position		      [785, 421, 790, 469]
+      ZOrder		      89
+      ShowName		      off
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux2"
+      SID		      "110"
+      Ports		      [2, 1]
+      Position		      [670, 333, 675, 382]
+      ZOrder		      164
+      BlockMirror	      on
+      BackgroundColor	      "orange"
+      DropShadow	      on
+      ShowName		      off
+      Inputs		      "2"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux3"
+      SID		      "112"
+      Ports		      [2, 1]
+      Position		      [620, 558, 625, 607]
+      ZOrder		      166
+      ShowName		      off
+      Inputs		      "2"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux4"
+      SID		      "58"
+      Ports		      [2, 1]
+      Position		      [475, 593, 480, 642]
+      ZOrder		      131
+      BackgroundColor	      "orange"
+      DropShadow	      on
+      ShowName		      off
+      Inputs		      "2"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux5"
+      SID		      "61"
+      Ports		      [2, 1]
+      Position		      [475, 518, 480, 567]
+      ZOrder		      134
+      BackgroundColor	      "orange"
+      DropShadow	      on
+      ShowName		      off
+      Inputs		      "2"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "PD OL \nController"
+      SID		      "95"
+      Ports		      [2, 1]
+      Position		      [480, 360, 560, 420]
+      ZOrder		      152
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"PD OL \nController"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"125"
+	Block {
+	  BlockType		  Inport
+	  Name			  "displacement\nerror"
+	  SID			  "96"
+	  Position		  [20, 83, 50, 97]
+	  ZOrder		  151
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "veloctiy \nerror"
+	  SID			  "97"
+	  Position		  [20, 153, 50, 167]
+	  ZOrder		  152
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain"
+	  SID			  "41"
+	  Position		  [115, 76, 170, 104]
+	  ZOrder		  114
+	  Gain			  "-Kd"
+	  Multiplication	  "Matrix(K*u)"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain1"
+	  SID			  "50"
+	  Position		  [115, 145, 170, 175]
+	  ZOrder		  123
+	  Gain			  "-Kp"
+	  Multiplication	  "Matrix(K*u)"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum4"
+	  SID			  "53"
+	  Ports			  [2, 1]
+	  Position		  [225, 105, 245, 125]
+	  ZOrder		  126
+	  ShowName		  off
+	  IconShape		  "round"
+	  Inputs		  "|++"
+	  InputSameDT		  off
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "ac"
+	  SID			  "98"
+	  Position		  [320, 33, 350, 47]
+	  ZOrder		  153
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  248
+	  SrcBlock		  "Sum4"
+	  SrcPort		  1
+	  Points		  [28, 0; 0, -75]
+	  DstBlock		  "ac"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  128
+	  SrcBlock		  "Gain1"
+	  SrcPort		  1
+	  Points		  [26, 0; 0, -20]
+	  DstBlock		  "Sum4"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  246
+	  SrcBlock		  "displacement\nerror"
+	  SrcPort		  1
+	  DstBlock		  "Gain"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  127
+	  SrcBlock		  "Gain"
+	  SrcPort		  1
+	  Points		  [25, 0; 0, 25]
+	  DstBlock		  "Sum4"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  247
+	  SrcBlock		  "veloctiy \nerror"
+	  SrcPort		  1
+	  DstBlock		  "Gain1"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      Sum
+      Name		      "Sum1"
+      SID		      "113"
+      Ports		      [2, 1]
+      Position		      [605, 410, 625, 430]
+      ZOrder		      167
+      ShowName		      off
+      IconShape		      "round"
+      Inputs		      "+-|"
+      InputSameDT	      off
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Sum
+      Name		      "Sum2"
+      SID		      "45"
+      Ports		      [2, 1]
+      Position		      [555, 610, 575, 630]
+      ZOrder		      118
+      ShowName		      off
+      IconShape		      "round"
+      Inputs		      "|+-"
+      InputSameDT	      off
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Sum
+      Name		      "Sum3"
+      SID		      "46"
+      Ports		      [2, 1]
+      Position		      [555, 535, 575, 555]
+      ZOrder		      119
+      ShowName		      off
+      IconShape		      "round"
+      Inputs		      "|+-"
+      InputSameDT	      off
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "double pendulum\n"
+      SID		      "7"
+      Ports		      [2, 4]
+      Position		      [705, 420, 760, 470]
+      ZOrder		      85
+      ForegroundColor	      "red"
+      BackgroundColor	      "[0.850980, 0.964706, 0.988235]"
+      RequestExecContextInheritance off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		23
+	$ClassName		"Simulink.Mask"
+	Display			"image('294px-Double-Pendulum.svg.png');"
+      }
+      System {
+	Name			"double pendulum\n"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"175"
+	Block {
+	  BlockType		  Inport
+	  Name			  "Tau1"
+	  SID			  "8"
+	  Position		  [335, 173, 365, 187]
+	  ZOrder		  2
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Tau2\n"
+	  SID			  "9"
+	  Position		  [335, 253, 365, 267]
+	  ZOrder		  3
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Demux
+	  Name			  "Demux"
+	  SID			  "10"
+	  Ports			  [1, 4]
+	  Position		  [565, 65, 575, 370]
+	  ZOrder		  -8
+	  BackgroundColor	  "black"
+	  ShowName		  off
+	  DisplayOption		  "bar"
+	}
+	Block {
+	  BlockType		  Mux
+	  Name			  "Mux"
+	  SID			  "11"
+	  Ports			  [2, 1]
+	  Position		  [385, 138, 390, 302]
+	  ZOrder		  -9
+	  ShowName		  off
+	  Inputs		  "2"
+	  DisplayOption		  "bar"
+	}
+	Block {
+	  BlockType		  S-Function
+	  Name			  "S-Function"
+	  SID			  "12"
+	  Ports			  [1, 1]
+	  Position		  [410, 192, 545, 248]
+	  ZOrder		  -10
+	  FunctionName		  "m_I_doublependulum"
+	  Parameters		  "0 0 0 0"
+	  SFunctionDeploymentMode off
+	  EnableBusSupport	  off
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "q1"
+	  SID			  "13"
+	  Position		  [600, 98, 630, 112]
+	  ZOrder		  15
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "q2\n\n"
+	  SID			  "14"
+	  Position		  [600, 173, 630, 187]
+	  ZOrder		  16
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "q1_dot\n"
+	  SID			  "15"
+	  Position		  [600, 248, 630, 262]
+	  ZOrder		  17
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "q2_dot"
+	  SID			  "16"
+	  Position		  [600, 323, 630, 337]
+	  ZOrder		  18
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  1
+	  SrcBlock		  "Mux"
+	  SrcPort		  1
+	  DstBlock		  "S-Function"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  2
+	  SrcBlock		  "S-Function"
+	  SrcPort		  1
+	  DstBlock		  "Demux"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  3
+	  SrcBlock		  "Tau1"
+	  SrcPort		  1
+	  DstBlock		  "Mux"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  4
+	  SrcBlock		  "Tau2\n"
+	  SrcPort		  1
+	  DstBlock		  "Mux"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  5
+	  SrcBlock		  "Demux"
+	  SrcPort		  4
+	  DstBlock		  "q2_dot"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  6
+	  SrcBlock		  "Demux"
+	  SrcPort		  3
+	  DstBlock		  "q1_dot\n"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  7
+	  SrcBlock		  "Demux"
+	  SrcPort		  2
+	  DstBlock		  "q2\n\n"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  8
+	  SrcBlock		  "Demux"
+	  SrcPort		  1
+	  DstBlock		  "q1"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "tau g\n"
+      SID		      "108"
+      Ports		      [2, 2]
+      Position		      [695, 332, 770, 383]
+      ZOrder		      162
+      BlockMirror	      on
+      ErrorFcn		      "Stateflow.Translate.translate"
+      PermitHierarchicalResolution "ParametersOnly"
+      TreatAsAtomicUnit	      on
+      RequestExecContextInheritance off
+      SFBlockType	      "MATLAB Function"
+      ContentPreviewEnabled   on
+      System {
+	Name			"tau g\n"
+	Location		[223, 338, 826, 833]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"28"
+	Block {
+	  BlockType		  Inport
+	  Name			  "q1"
+	  SID			  "108::1"
+	  Position		  [20, 101, 40, 119]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "q2"
+	  SID			  "108::22"
+	  Position		  [20, 136, 40, 154]
+	  ZOrder		  13
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Demux
+	  Name			  " Demux "
+	  SID			  "108::27"
+	  Ports			  [1, 1]
+	  Position		  [270, 230, 320, 270]
+	  ZOrder		  18
+	  Outputs		  "1"
+	}
+	Block {
+	  BlockType		  S-Function
+	  Name			  " SFunction "
+	  SID			  "108::26"
+	  Tag			  "Stateflow S-Function s_VI_pd_with_grav_control_14bb 1"
+	  Ports			  [2, 3]
+	  Position		  [180, 100, 230, 180]
+	  ZOrder		  17
+	  FunctionName		  "sf_sfun"
+	  PortCounts		  "[2 3]"
+	  SFunctionDeploymentMode off
+	  EnableBusSupport	  on
+	  Port {
+	    PortNumber		    2
+	    Name		    "u1"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "u2"
+	  }
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  " Terminator "
+	  SID			  "108::28"
+	  Position		  [460, 241, 480, 259]
+	  ZOrder		  19
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "u1"
+	  SID			  "108::5"
+	  Position		  [460, 101, 480, 119]
+	  ZOrder		  -5
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "u2"
+	  SID			  "108::25"
+	  Position		  [460, 136, 480, 154]
+	  ZOrder		  16
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  35
+	  SrcBlock		  "q1"
+	  SrcPort		  1
+	  Points		  [120, 0]
+	  DstBlock		  " SFunction "
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  36
+	  SrcBlock		  "q2"
+	  SrcPort		  1
+	  DstBlock		  " SFunction "
+	  DstPort		  2
+	}
+	Line {
+	  Name			  "u1"
+	  ZOrder		  37
+	  Labels		  [0, 0]
+	  SrcBlock		  " SFunction "
+	  SrcPort		  2
+	  DstBlock		  "u1"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "u2"
+	  ZOrder		  38
+	  Labels		  [0, 0]
+	  SrcBlock		  " SFunction "
+	  SrcPort		  3
+	  DstBlock		  "u2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  39
+	  SrcBlock		  " Demux "
+	  SrcPort		  1
+	  DstBlock		  " Terminator "
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  40
+	  SrcBlock		  " SFunction "
+	  SrcPort		  1
+	  DstBlock		  " Demux "
+	  DstPort		  1
+	}
+      }
+    }
+    Line {
+      ZOrder		      54
+      SrcBlock		      "double pendulum\n"
+      SrcPort		      1
+      DstBlock		      "Mux1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      6
+      SrcBlock		      "Demux"
+      SrcPort		      1
+      DstBlock		      "double pendulum\n"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      7
+      SrcBlock		      "Demux"
+      SrcPort		      2
+      DstBlock		      "double pendulum\n"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      56
+      SrcBlock		      "double pendulum\n"
+      SrcPort		      4
+      DstBlock		      "Mux1"
+      DstPort		      4
+    }
+    Line {
+      ZOrder		      58
+      SrcBlock		      "double pendulum\n"
+      SrcPort		      2
+      DstBlock		      "Mux1"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      59
+      SrcBlock		      "double pendulum\n"
+      SrcPort		      3
+      DstBlock		      "Mux1"
+      DstPort		      3
+    }
+    Line {
+      ZOrder		      60
+      SrcBlock		      "Mux1"
+      SrcPort		      1
+      Points		      [17, 0; 0, 61; -147, 0]
+      DstBlock		      "Demux4"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      119
+      SrcBlock		      "Demux4"
+      SrcPort		      2
+      Points		      [35, 0]
+      Branch {
+	ZOrder			433
+	Points			[0, 10]
+	DstBlock		"Goto1"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			345
+	Points			[0, -10]
+	DstBlock		"Angularvelocity_rad/s"
+	DstPort			1
+      }
+    }
+    Line {
+      ZOrder		      120
+      SrcBlock		      "From"
+      SrcPort		      1
+      Points		      [15, 0]
+      DstBlock		      "Sum2"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      121
+      SrcBlock		      "From1"
+      SrcPort		      1
+      Points		      [15, 0]
+      DstBlock		      "Sum3"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      118
+      SrcBlock		      "Demux4"
+      SrcPort		      1
+      Points		      [36, 0]
+      Branch {
+	ZOrder			353
+	Points			[0, -25; 104, 0; 0, -10]
+	Branch {
+	  ZOrder		  435
+	  Points		  [0, -190]
+	  DstBlock		  "Demux1"
+	  DstPort		  1
+	}
+	Branch {
+	  ZOrder		  412
+	  DstBlock		  "Angles_rad"
+	  DstPort		  1
+	}
+      }
+      Branch {
+	ZOrder			352
+	DstBlock		"Goto"
+	DstPort			1
+      }
+    }
+    Line {
+      ZOrder		      134
+      SrcBlock		      "From\nWorkspace"
+      SrcPort		      1
+      DstBlock		      "Mux4"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      135
+      SrcBlock		      "From\nWorkspace1"
+      SrcPort		      1
+      DstBlock		      "Mux4"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      136
+      SrcBlock		      "Mux4"
+      SrcPort		      1
+      DstBlock		      "Sum2"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      137
+      SrcBlock		      "From\nWorkspace2"
+      SrcPort		      1
+      DstBlock		      "Mux5"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      138
+      SrcBlock		      "From\nWorkspace3"
+      SrcPort		      1
+      DstBlock		      "Mux5"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      139
+      SrcBlock		      "Mux5"
+      SrcPort		      1
+      DstBlock		      "Sum3"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      410
+      SrcBlock		      "Demux1"
+      SrcPort		      1
+      DstBlock		      "tau g\n"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      411
+      SrcBlock		      "Demux1"
+      SrcPort		      2
+      DstBlock		      "tau g\n"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      415
+      SrcBlock		      "tau g\n"
+      SrcPort		      1
+      DstBlock		      "Mux2"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      416
+      SrcBlock		      "tau g\n"
+      SrcPort		      2
+      DstBlock		      "Mux2"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      419
+      SrcBlock		      "Demux2"
+      SrcPort		      2
+      DstBlock		      "PD OL \nController"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      420
+      SrcBlock		      "Demux2"
+      SrcPort		      1
+      DstBlock		      "PD OL \nController"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      421
+      SrcBlock		      "Sum3"
+      SrcPort		      1
+      Points		      [18, 0; 0, 25]
+      DstBlock		      "Mux3"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      422
+      SrcBlock		      "Sum2"
+      SrcPort		      1
+      Points		      [18, 0; 0, -25]
+      DstBlock		      "Mux3"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      423
+      SrcBlock		      "Mux3"
+      SrcPort		      1
+      Points		      [8, 0; 0, -128; -208, 0; 0, -67]
+      DstBlock		      "Demux2"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      424
+      SrcBlock		      "PD OL \nController"
+      SrcPort		      1
+      Points		      [9, 0; 0, 30]
+      DstBlock		      "Sum1"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      429
+      SrcBlock		      "Mux2"
+      SrcPort		      1
+      Points		      [-50, 0]
+      DstBlock		      "Sum1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      430
+      SrcBlock		      "Sum1"
+      SrcPort		      1
+      Points		      [23, 0; 0, 30]
+      DstBlock		      "Demux"
+      DstPort		      1
+    }
+    Annotation {
+      SID		      "115"
+      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
+      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
+      "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
+      "t:0px;\"><span style=\" font-size:14px; font-weight:600;\">Theoretical scheme</span></p></body></html>"
+      Position		      [1078, 306, 1210, 324]
+      InternalMargins	      [0, 0, 0, 0]
+      Interpreter	      "rich"
+      ZOrder		      -1
+    }
+    Annotation {
+      SID		      "114"
+      Position		      [1078, 342, 1483, 623]
+      InternalMargins	      [0, 0, 0, 0]
+      ImagePath		      "[$unpackedFolder]/simulink/resources/mwimg_9dcd7a24-184c-4187-b026-d87f27e074bc.png"
+      FixedHeight	      on
+      FixedWidth	      on
+      AnnotationType	      "image_annotation"
+      ZOrder		      -2
+    }
+    Annotation {
+      SID		      "84"
+      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
+      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
+      "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
+      "t:0px;\"><span style=\" font-size:14px; color:#ffaa00;\">Trajectory</span></p>\n<p style=\" margin-top:0px; marg"
+      "in-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-siz"
+      "e:14px; color:#ffaa00;\">reference</span></p></body></html>"
+      Position		      [396, 470, 459, 504]
+      InternalMargins	      [0, 0, 0, 0]
+      Interpreter	      "rich"
+      ZOrder		      -1
+    }
+    Annotation {
+      SID		      "81"
+      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
+      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
+      "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
+      "t:0px;\"><span style=\" font-size:14px; font-weight:600;\">Centralized joint space control using PD with gravity"
+      " compensation controller</span></p></body></html>"
+      Position		      [370, 294, 889, 312]
+      InternalMargins	      [0, 0, 0, 0]
+      Interpreter	      "rich"
+      ZOrder		      -2
+    }
+  }
+}
+MatResources {
+  NumRecords		  1
+  ResourceRecord {
+    Path		    /simulink/resources/mwimg_9dcd7a24-184c-4187-b026-d87f27e074bc.png
+    Data		    "B5!.1PT*&@H    -24A$4@   >    %]\" 8   #<++L(    \"7!(67,  !<1   7$0'*)O,_   @ $E$051XG.S=>7R4Y;W__]=]S"
+    "YZ%;&0C+ $\"@<@:\"(2PA7U10!915,16;;\\NC_,]U7-Z6L^OIZ?GV]/E5+N<GJYZU%J++5I1J<HJBR 0$DB $$)(0DA\"]HULDUE_?PQ)Q01(F$E"
+    "F&#[//&S-S'U?]S4XS'NNZ[X6!?@A\\\"V$$$((,5#>4 \"GMVLAA!!\"W&VTG?_B=$H.\"R&$$/U-410 5\"_70P@AA+@K20 +(8007B !+(000GB"
+    "!!+ 00@CA!1+ 0@@AA!=(  LAA!!>( $LA!!\">($$L!!\"\".$%$L!\"\"\"&$%T@ \"R&$$%X@ 2R$$$)X@02P$$((X042P$(((8072  +(8007B"
+    " !+(000GB!!+ 00@CA!1+ 0@@AA!=(  LAA!!>( $LA!!\">($$L!!\"\".$%$L!\"\".$FL]E,;FXN9K/9VU41=Q\"MMRL@A!\"]T=341&N[%8<=4"
+    " ;@@D[0Z2 T) B#P=CC(7:[G9:6%@X<.,#%BQ=YXHDG,!I[/E:(+Y, %D+<$5YZZ2<<.9:#S<J !7\" \"?[EG_^1!0L7]7A(1D8&?_G+7SATZ!\"/"
+    "/_XX)I-I \"HF_(4$L!#BCO\"WCW:A:<YD^'# .@ 7U,/>?7!FY:IN 7SNW#F.'3O&WKU[^?###P%(24G!8# ,0,6$OY  %D+<$?2&(+[Y -R[$F@="
+    "@ N&P -/@9V_MVKKZNK(S\\]GV[9M;-NVC<K*2IQ.)X\\\\\\@A)24D#4\"GA3R2 A1!W!%6C(6P0& <# W&;-0P\"C* HKK&J%RY<X.VWWV;7KET4"
+    "%A9275WMJI>JLG[]>D)\"0@:@4L*?2  +(>X(\"M!F!EJN_=/?M*\"H<.&\"J\\6[>_=N]N[=2TE)R76'+5NVC'OOO7< *B3\\C02P$,(_J=?^L=U^"
+    "$7H]G#QYDLQC.SEQXD2/Q\\3%Q7'\\^'&T6ODX]02=3D=L;\"QQ<7'>KDJ_DW>,$,(_.0&'^\\58+!8L;6TW?/[CCS_FV+%C.!P>N)A 413NO_]^OO"
+    "_][WN[*OU. E@(X9=**^%*#<R<</ME6\"R0G)S,G-2'V;U[-[MW[Z:NKNZZ8ZY<N<*R9<L8/'BPA+ '?/[YYV1E97F[&@-\" E@(X5\\4<#H@MPCV9"
+    "\\+,B;@^Z>STN45LM<+$B1-Y_/%'F#!A M'1T1PZ=(C\"PD*:FIH T.OU;-RXD>7+EWOZE=R5?O.;W_#11Q]YNQH#0I:B%$+X%P6<3E?K-^>\"ZW?L"
+    "N+JDW5C 8^K4J7S[V]_F!S_X :M6K2(T-!1%4;!8++SWWGM8K0,Q.=G_J:J*H@S$2BO>)P$LA/!+%BN8.\\!LA@N7H*D9T/>]')O--8I+H]$0%17%D"
+    "B5+^+__]_]V!;&JJFS=NI63)T]ZM/YW*XO%<M<$L'1!\"R'\\DEX'32WP[C[7_>\"(4%B[$\")#<;6&;Y.JJDR?/IWITZ>3D)# X,&#.7[\\.)]]]A"
+    "F3)T^6M:!%KTD \"R'\\CJ* JD!9-7SR.>BU<.DX# Z!=<OPV%*6Z>GI3)X\\F5V[=I&?GT]K:ZL$L.@U\"6 AA%^RVEPK63VT!$P&>/-C.'8&UJW "
+    "=2_8C59P)YU.1U14%&O6K.'BQ8L$! 2X7ZBX:T@ \"R'\\DMT!T1&P:BG@A.P\"R#A+OXQ\\&31H$,G)R9XO6/@U&80EA/ [3B=H5 @PX!H!;06''="
+    "HZ^N^:K:VM,@]8](D$L!#\"/RFN$.Y<$<OAQ\"/=SCVY<.$\"V[=OI[FYN7\\N(/R2=$$+(?R6L^M_7#P]NZ6LK(PC1XZP:]<N1H\\>C4:C\\>P%A%"
+    "^3 !9\"^\"6;'<R6O_]NM5W_NSNN7KU*24D)'W_\\,:^__CJEI:5LW;J5H* @SUQ W!4D@(40?DGI[(*^1OW2[[TOY_IF<WU]/=NW;V?;MFV<.W>.L"
+    "K(RID^?+H.P1)])  LA_(O3%;XI26#4T;7^\\_QI,#(.U_:$O;P7['2ZUGH&5ZOWP($#'#ITB(,'#Y*9F=EUW,,//WQ7;)\\G/$L\"6 CA7ZX%\\+0"
+    "DF#:!KOV YTS#-?^W#XMP:#1075W-A0L7.'#@ '_ZTY\\X=.C0=<>,&S>.=>O6H:HRIE7TC02P$.*.H:J YMH_M])YG -7\\&IQS?OH_+T7YQL-D)F"
+    "924EA%GOV[*&VMK;;8>GIZ82&AF*WVW$Z^VF8]1U\"H]'<->LX>X($L!#BCN!T0I )&$3?=C4R</W*5X9>GA<\")B-<*KK,Z9,7J:BHZ/&PLV?/\\@"
+    "__\\ ]=FS;<S<+\"POC.=[Y#='2TMZMR1Y  %D+<$<SM+7RX'ZK:@?;>GZ?5@LD$?9ZB&P2GSL&H\\4,8/B>)@P</4E!0T&W;P<.'#W>M 7VWMX\"/"
+    "'3O&DT\\^*0'<2Q+ 0H@[0FQ,!'\\Y%,#[Q^G3@AH.AQVKQ8JAKYLDJ-#8!$_=MY\"U]Z]AUZY=O/[ZZQP[=HSV]O:NL-7I='SK6]\\B)27EK@_@)4"
+    "N6T-'1C\\N-^1D)8\"'$'>'YY_^1_(L/8;72IR[HO+P\\MF[=RO_[SO_KVP4=$!0(*U<L(#(RDE6K5C%TZ%\".'#G\"AQ]^2$9&!@!VNYVJJBI&CAS"
+    "9M_+]4%A8V%W_):0O)(\"%$'>$Q8N7L'AQW\\_+S,SB9,8>_O&YS6Y=/R0DI&O[P:%#AS)RY$BRL[/)S\\_GO__[OUFQ8@4)\"0EN7>-.9[/99!!6'"
+    "\\BX>2&$7S.;VSVZ24)86!B;-FWBY9=?YIEGGF'RY,G4U-1P_/AQV8Q!](FT@(40?LUFLWF\\6U2OUQ,7%\\>##S[(^/'C^?CCC\\G)R6'ERI6$A85"
+    "Y]%K\"?TD \"R'$;8J.CF;)DB6,'#F2C(P,68Q#](D$L!!\"N\"DA(8&1(T=* (L^D0 60@@/D*T(15_)US4AA!#\"\"R2 A1!\"\"\"^0 !9\"\"\""
+    "&\\0 )8\"\"&$\\ ()8\"&$$,(+)(\"%$$((+Y  %D(((;Q  E@((83P @E@(800P@LD@(400@@OD  60@@AO$ \"6 @AA/ \"\"6 AA!#\"\"R2 A"
+    "1!\"\"\"^0 !9\"\"\"&\\0 )8\"\"&$\\ ()8\"&$$,(+)(\"%$$((+Y  %D(((;Q  E@((83P @E@(800P@LD@(400@@OD  60@@AO$ \"6 @AA/"
+    " \"\"6 AA!#\"\"R2 A1!\"\"\"^0 !9\"\"\"&\\0 )8\"\"&$\\ ()8\"&$$,(+)(\"%$$((+Y  %D+X#;O=3EU=W4V/L5@LU-?7#U\"-A+@Q\"6"
+    " AA-\\PF\\WLV;.'LK*RKL<41;GNF*RL+ X?/CS051.B&PE@(83?T&@T%!<7\\Z,?_8C,S$P M%HM!H,!@.W;M_/**Z_0TM+BS6H* 4@ \"R'\\B,%"
+    "@8.3(D;SZZJO\\]K>_)2\\OCXZ.#EI;6]FW;Q\\__>E/.7SX,$E)2=ZNJA!HO5T!(83P%$51F#9M&H&!@6S;MHW6UE9FS9K%Y<N7>?'%%SEUZA3IZ>"
+    "F,'S_>VU450EK 0@C_,F3($%)34VEN;F;'CAV\\^>:;-#4UD9&1@=UN9\\:,&5U=TD)XDP2P$,*OZ/5ZEBQ9 D!K:RM965E=S\\7$Q#!W[MR;GG_JU"
+    "\"ER<W/[M8Y\"@'1!\"R'\\C$ZG(R4E!:/1B-ELONZYH4.',FW:M)N>_Z<__8F0D!#NN>>>_JRF$-(\"%D+XGY$C1Y*8F-CM\\7'CQC%X\\.\";GEM"
+    "75T=#0T-_54V(+A+ 0@B_$Q86UJVK.2@HB)DS9_9XO,5B(2<GAT\\^^82JJBI*2TOYY)-/R,W-Q6:S#425A0^SV^V4E9516UOKT7*E\"UH(X7=,)A."
+    "S9\\_F5[_Z%4ZG$X#8V%A24U-[/+ZCHX///_^<8\\>.45A8B%ZOY\\]__C/IZ>F,'#D2K=;]CTJKU4IU=0T=%D\"YY>$#QPD:#80,,A$:&N;MVMPVL"
+    "]F,W6XG,##0XV5W='1PZ- A8F)B6+APH<?*E0 60OBE29,F$1$1T=5J&3%BQ VG'VFU6H8/'X[=;B<_/Q^3R41*2@IQ<7&HJF<Z\"DM*+O'U__,L;>"
+    "T>*<ZC=#I8N6P!W_KVM[U=E=M64%# V;-G6;IT*1$1$1XMVV*QD)N;2WN[9__C20 +(?Q2;&PL4Z9,8>_>O>AT.B9-FH3)9.KQ6+U>3TI*\"E.G3N7"
+    "@P8,$!P>S;MTZ=#H=>KW>(_6IK&I@_[X];%H*.#Q2I&?HX6PN?'K P+?NW/S%8##PT4<?<>;,&5:M6L6L6;-Z?>Z5*U<PF4R$A871WMY^W?NDO+P<A"
+    "\\.!U6JEM;75HW66 !9\"^*6 @  6+%C WKU[\"0D)8<Z<.3<\\5J/1$!45!4!T=#0A(2$,&3+$H_6QVC5,' U_^ %@!YP>+?[V#8)77H</<CW?=3N"
+    "0QHP9@T:CX1>_^ 7%Q<4T-34Q??KTFPZZ<S@<G#]_GA,G3A 9&4EL;\"PVFXV4E!3,9C.G3IWBW+ES! 4%T=C8R.C1HSU:9PE@(81?TNOU7:V@J*@H"
+    "TM+2>G7>V+%C\"0H*ZH<:*>AUH W!MP(X!(),H\"AW]IA<15%8M&@1[[WW'A]__#%Y>7D\\\\, #//GDDT1'1_=X3D5%!3_YR4\\(\" @@-#24XN)B"
+    "IDV;1DI*\"MG9V;S\\\\LN$AX?3W-S,N7/GF#U[MD?K+ $LA/!+BJ(P8<($IDV;QN3)DV_X(?QE\"Q<N],B@J^[U ;L#:,6W E@#9HNK?G>ZQ8L7DY"
+    "\"00'9V-CDY.;2TM%!?7\\\\##SS0;0\">W6XG.SN;HJ(BGGWV62P6\"X</'V;(D\"'8[7:.'S].:VLKZ]>OY\\*%\"^3EY74-Z/,4\"6 AA-\\JN7"
+    "R%D+ A-+=!ULFSC!T33W#PS5NW$R9,&*#:^0ZG$[1:G=OEJ*KJ]BADH]%XVU^ A@P90GIZ.KFYN5BM5@H+\"_G%+WY!=74U;6UM)\"4E$1,3 T![>S"
+    "N9F9E,FC2)C1LWTM+2PKESY]!H-%R]>I7SY\\^S8,$\"-FW:Q.7+E[ETZ1(='1UNO;8ODP 60OBEHN(2MFU[FXL7<CA[VDQS4R7_Y_\\\\S>I5]W;;"
+    "(_ANIRA@M5K<GO-LM]NY>O6J6^6TM+30T=%Q6V5H-!I24E((\"0GI&OUNM]OYX(,/R,W-9?WZ]3S^^./$QL;2UM9&:6DI\\?'Q@&N>^.C1HRDI*:&^"
+    "OI[:VMJN6Q@Q,3$,&3+$XW/\")8\"%$'[G\\N5ROO^?/^9JY6=\\97D%!KV5\\V6G^>,?WT91M:R^;[FWJ^A3@H+@=/91MFS9XE8YI:6E_,=__(=;T"
+    "X!R<G*X?/GR;=5%413:VMJZ+4':W-S,J5.GJ*JJXL2)$ZQ=NY:E2Y?B<#@P&HU=QP4'!P.N:4=VN[UK!+RJJAB-1NF\"%D+</:Q6*^7EY41%11$0$-"
+    "\"K<]K-%M[>^A;G,U]E\\WU:MJQT$A!AXF2NEI=>V\\>[VS2DSDCN&O7L#HO%0FEI*4.'#KV]'9:<N#Z%O]S[ZP!LW'RZDG+MO%L=U]-Y7\\H1C0;:"
+    "VEHH*BKJ0T'==71T4%Y>3E-3TVV7$1X>3E14%)<O7T91%*Q6:Z_/U6@T7?=^>V*WVRDM+:6VMA:3R41T=#17KESI>O[*E2LXG4Y\"0T,)# RDJJH*@"
+    "+:V-FIJ:FZYC&E?20 +(7R6V6QFY\\Z=#!LVC 4+%F RF6[9?9R1<8(=?_T53Z^SLF:!E8! P.I@<D(Y3Z]U\\+-W3_+1Q[OYRN./NEV_]O9V=NS8P"
+    "<2)$TE+2\\-H-/:M>UL!IPUL'>#X0HAJ-:#1T6-8=G(ZP&$&5>G# \"JEYS);6F#RU#1>>^7GO:][#^Z[[SZ^][WO,67*E-LN0Z/1H-%HZ.CHP.ET]"
+    "GHA%$51J*VMY6M?^QK9V=G7/:[7ZQDU:A3KUZ_GWGOO)2$A@>#@8!(3$_G@@P]H;FZFKJZ.G)P<XN+BB(J*8MBP89P_?Y[FYF9R<W.Y<.&\"Q\\<'2"
+    "  +(7R67J_GZM6K_/2G/^7(D2.L7[_^IKL9=71T\\.>W?LO0T%)6S85!D4 [8'.@,3J8E0R[/R_BXYW[>/31A]\"Y.=K98##0TM+\"CW_\\8V;.G,G"
+    ":M6M)3D[N?0$ZN%0\">XZ!XUHH.IPP.@[F)X,Q&.B@^]*5\"C2UP+$S,'T\\#!Z,JR5\\*TYZ#'2;#4)#(Q@U:E3OZ]Z#@(  DI*2W\"X'H+&QD=;6"
+    "5N+BXGI]3GY^/O7U]5V_Z_5Z4E-324]/9_KTZ4R8,(&1(T=V/9^:FLHGGWS\"-[[Q#4PF$[FYN<3%Q:'1:)@W;Q[__=__S?///X_=;J>XN%BZH(40="
+    "P^#P<#,F3/YR4]^PO'CQZFJJF+%BA5,GCR9,6/&=#N^N/@R)S[_B.\\^ :$1N,*WLV5I!FT@I$UHY_,/LBDHN$C2^'%NU<]H-#)KUBQ^_.,?DY&106"
+    "5E)2M7KF32I$F]6[1!![F%\\-;',#41; Y72_ADGBM@[UL  9T+<6FNO18[H$!=$[R[%X9&P>\"AUUZK_4OE:US'X@!4J*N#(SFP>B'73852%+!8W!"
+    "_A:[/9W.I^_J+=NW=35E;&\\\\\\_WZOC:VIJ>/GEE[E\\^3)145$D)B8R:=(DYLZ=R\\*%\"XF,C.QV3D)\" JM6K6+GSIV83\":BHJ)P7.N*F#%C"
+    "!NGIZ9P^?9KHZ&A6K5K5XPY;[I  %D+XM+2T--+3TWGWW7=YZZVW^/333UFW;AV;-V\\F(2'AND4S,HX?(2JTE;E3<87+E^^-VF'T<!@6=ID3&<?<#"
+    "F\" V;-G,WOV;';MVL6;;[[)@0,'V+!A P\\]]! )\"0E=TW(T&DWWDS506@4-S;!P)G3.<OG@(&S=\"1,2(.D>P PVLZMKNC-4V]KA;\"&TM('#!J"
+    "H=U_YVG:]9\"TZK:^ZQ5@?HH:@<?OXGN&\\>J\"J^,Q>Y!X6%A9P_?[Y7QSJ=3HX=.\\:E2Y<(#P_G@0<>X($''F#JU*F83\"9TNIZG6&FU6C9LV,#"
+    "*E2MI:VOC#W_X0U<+.CP\\G&>??9:6EI:N)4EOZS[_34@ \"R%\\FDZG8\\V:-7SZZ:?4U]=SZ=(EWG[[;;*SLUFV;!GKUJTC(2$!N]W!B:.[F'F/E"
+    "=!!]!PN=H@,@^A!C5PJ+O!(_8Q&(P\\]]! '#AR@HZ.#BQ<O\\L<__I&LK\"Q6KES)_???3WQ\\?,\\!#+1W0$0(S$L%>SN@<07M&W^#BZ60-!T:JZ"
+    "\"@%(8,AKA80'5U55NLT-8!1<40J(/8F\"^\\;A4*RZ\"Y#<;%@\\D(955PX3*45,!(SZZTZ7$6BZ77FQ^8S6;R\\_-9OGPY:6EI3)TZE82$A%[-)S"
+    "8:C1B-1L+#PPD(\"*\"ZNKKKN<# P'[97:F3!+ 0PN=MV+\"!O_SE+_SM;W\\#7$L(5E144%)20FEI*4N6+\"4J*I;SYT[R+P]UWDSMH2 '! V\"L$"
+    " '%0W-'JO?IDV;NEJ_3J>3\\O)RRLO+*2TMI:2DA\"5+EE!5VTY/XXF<P.!0\"$L FH$ 2&F!MW:\"U0:7BN#='=!XU77\\BMDP.QET&E<K]OW]$!\\"
+    "+C2VP<0E,& ,HL.L0',EV+;(1&0KW+W2%;YL9#I_T_0#6:K6]W@A#4122DI)8LF0)DR=/OJWK62P68F-C/=[*O1D)8\"'N<DU-3=34U/1INL= TV@T"
+    "1$1$H\"C*=0-A\"@L+^9__^1\\^__QS5JW90%5-'0G#<'7%?OE^*( #=($0'@('<BZ3EY?GD?HIBL*0(4-0516[_>\\7/G_^?-=B_^.29K@\"^$L#J"
+    "K0:5Q=T13XH[> TP,&3H#@A=C#LV@<?'X;D)#A?\"#6-,&8XZ/6NUG/&60@,@*P\\U[W<L<-=2TN^LAT,6HB,< W6TFA=CSN<KE:Q3^U)[\":CT<BR"
+    "9<MNV,O0&QJ-ANG3IWM\\M:N;D0 6XB[WSCOO\\.JKK_IT .OU>LK+RV\\X\"O7*E0IJ:^MH;3,3&LR- _C:O-NP4#CZ^2$>?=3]J4A?K)_#T?.$W/"
+    "+R<J)C&WI\\SF1P#<1Z^557Z-8VP?DB6#W7U35]_#2D3X,-:Z\"J!/[M]W\"Z ,:.<+60UZ3#FJ4P;1S\\SU_@JZOA<@4T-L-WGH\"(*-A]\"'9^#E"
+    "]9Y0KU%9T;0_GP/>\"^<B=\\.\\\\?,6*$QT<ZWXP$L!!WN1,G3E!=74UZ>KJWJW)#]?7UG#Y]NMOCH:&AS)X]FWGSYC$B?BQ[_O8J'99;%';MWFE("
+    ":-AM=U=^D:(H-#0TD)F9V>W#.S0TE#ESYK!PX4(Z; 9*SK[18WV<3M #C6WP62;$1<,#]T)-%5QM@T4S(&DB)\"6 [G_A3\"$,C88AD;!D)B1-@3'1"
+    "\\!^ON 9:9>?#Z*$P/P4(!RSPQX]=+>1!@3 R =>H:1]FM5H'M#4*W'\"P5G^1 !;B+N=P.%B_?CT_^<E/O%V5&]JQ8P>9F9FTM;4!KOFFL;&Q+%RX"
+    "D(<??ICY\\^=3W]#,3\\/\"N5QYE>BH&[1B%* #:NM@SIP%O/;:JQZKWX$#!VAH<+5R P,#N^KWZ*./,G?N7 X=R6;;JW1K=7987&'Y^/U040?M9M>"
+    " J9@H.'O>]>_! <!5P \"AP5#7Z!K]/\"+6]3QFT&G!H(?ZJU!>ZPIHJP5T9@@PNIZ_5'%M1Z:!S;7;$AP<3'AXN+>KT:\\D@(6XRRF*,J #3V['IY"
+    "]^VC4Z5:?3L73I4AYZZ\"%24U.)C8U%411,1B-QP\\>24U!&RCW6ZZ?D=-) VU5H:%49/FRHQ^KWT4<?<?6J:Y247J]GY<J5//C@@Z2DI! ;&^NZ] "
+    "VZ2&T.5Z@FC(%APZ&M#7[Z)]CS&00:7?.\"K3:Z5K!R.%P#L#0JV.VNUC.X_M_I<(6M0><*]NN><UZ;Q@1WQ/W?I*0D\"6 AA']3% 6+Y5;]MMZ3G9"
+    "W-N^^^B]5J9<Z<.2Q>O)CY\\^<S:]:LZ[XX:+4*L]*6L'OO 1Y;\"?I N@>P%JKKX'+#,&:GNK]:$T!65A;OO/,.=KN=!0L6L&#! M+3TYDU:]9UTV"
+    "!N=H]=JP'5\"\"859L^$-_\\&[^V!)^YW=9=7U *AX*AV+< 1$P%!)B@J@Z9FP 25Q6\"S0W0X) R%CPZ[UGC&\")6UKG\".[5S*. #7OL1]64-Z@,"
+    "V8,<.GWY>>( $LA/!9%HN%??OV$1(2PHP9,]BP80-KUZZ];@>;3GJ]CO0%BWGWS[_FT\\PBEJ?S]\\T*G+@6L- H9%_44MX4S[1I4SU2OSU[]A 3$\\"
+    ".B18MX\\,$'6;5J5:^GSZ! AQ5:.E>Q:H=!8;!N ?SP#<B_!'%1L#\\30J*@K-C5PITTUA6NU?6P\\RAH37#XA&M@5EPT:%7X\\V[XZSZ(BX%//H=I"
+    "XV%XM&MPUF<'8,9$5TO95P4&!O;XW[DG]?7U%!<7$Q 00$1$!!$1$6X/RAH($L!\"\")_5UM9&<W,S3SSQ!&O6K\"$Z.OJF'\\J)8T<S8>HB7O^DEH"
+    "D)5XF+QM7=J@*J0D--( >R@PB+&$'2>/>7%6QM;:6^OIZGGWZ:E2M7$A,3T_OP!7\"\"27_M'F_GO>$.6) \"K_\\-\"LMAP73XU3M0\\'NXV@R+9\\"
+    "*4L:X5M,;%NZ8L7:Z$XG)X9B,,#H/00->HZ%]M<\\TQOMH&WWW*U7(VZN&E/\\*K_P:1X?AL=_29,V=H:&A@Z=*EMSRVIJ:&W_[VMYC-9J9/GTYJ:B"
+    "KCQX\\G,# 0555]=O]G\"6 AA,\\R& RL6+&\"8<.&,63(K5>.&#0HB\"U;OL*/?EC,_WMU'T]N&,3TI*L0K*>I=@2O?V3C1+Z>;_SSVKX%Y4WJMWK"
+    "U:L:.'7M[VQN:86&**TCIP!7\"%A@< ?^XR35P:N(8U_S=AB9 A073P!3H6M'K^4>AK-K5O6Q/AL4S7\"UCC0DV+8=A,:Y[Q<%!,.,>U_WC[SSIF@<"
+    "<8.\"&FS/X@JRL+(J*BGH5P.'AX<3&QO+[W_^>S,Q,=NW:171T-./&C6/4J%$,'3J4\\>/'$QH:VJMKY^;F$A45161D)$U-382$A+C[<GHD 2R$\\%"
+    "DFDXF9,V?VZ9QY<V=Q\\>(6_OPV_&5?$9FGFP@T=%#> B<*QY R>S(K5BSV2/T\" @*8,V?.K0^\\$0M,' \\3)P*=BV-<6\\-ZZ0*Z]@5^<!6N+NK"
+    ".#1DL$!8\"\"^?B:MUW\\/?N]FN[(DU,@HD3KOVNHRO@'[S_6AF=@8]K@)9.Y_X7$HU&T[6IO;NN7KU*145%KXZ-C(SDF6>>X<R9,[S__OM=:TC'Q,"
+    "0P=NQ81HP8<=T&&7%Q<<R8,:-;.2TM+>S;MX^\"@@+BXN(P&HU$144Q>_9LC[RF+Y, %D+XG8T/K\",T=!#O;OL#NX]9:&UI)B+2P*HU\\]G\\V&8\""
+    " X-N7<A Z-RIR,KU7<'.:X]UME [MQJT\\_>!4YV/=^[Q^\\7G.H_M;-W:OO#O5KJU>E456EN;J:VM=>OEM+2T</GR9>+BXK#9;&XM:M'0T$!K:VNO"
+    "ZJ0H\"HJB,&O6+';NW(G9; :@LK*2VMI:,C(R>/_]]]%H-(2%A?'((X^0DI+2K6OZ[-FS_/K7OV;2I$G4U-1PXL0)UJ]?+P$LA!\"]%104P-(EBP@+"
+    "CZ*TK 9S1P<AP0:2IR0Q8KCGIA]Y1$\\K=L'U^_OV-%K9R<WW +;?H.P>!F,'!T/VR2,\\]-!#-RGPUBY<N,\"++[Y(?'P\\+2TM-UP9K#>*BXMI:V"
+    "OK=9VT6BT5%15=X=O)9K-AL]FZ'I\\P80*S9\\_N%K[M[>UD9F82$!# A@T;J*RLY,2)$UW3R_J#!+ 0PB\\%!06R8'ZJMZMQ1W Z054U;L\\'?_CA"
+    "A[EZ]2K;MV]GUJQ9A(6%W7996JT6C:9O=1H]>C3)R<E\\\\LDG5%557?><T6ADT:)%//WTTRQ?OKS;N8V-C>3FYC)]^G1FSIQ):VLK1XX<Z=<!7!+ "
+    "0@@Q0%0%,'!]][\"W&:###).GIK%UJWLK@VFU6LQF,_/GS^?G/_^Y6QO8_]=__1?Y^?G\\[__^;Z_/4545I]-);F[N=0%L,IE8M&@1__JO_TI*2DJ/"
+    "Y[:TM-#0T-\"U/&E@8\"!Q<7&TM+3<]FNX%0E@(808 %VW0SNGI_K*(A@:P E&4X!'1OL&!@:R<N5*QHT;QZ!!@VZ[G)\"0$$PF4Y_K5%55U2TTUZQ"
+    "9PW///4=*2LH-YVB,?WP  \"  241!5 <KBM)M_^#^GDLL 2R$$ - H]HX>P&^\\T-\\)WP!C/#Y,2\"RSB/%.9U.MFS9XO8TK]#04(8.[?O]^KU[]"
+    "U)960FX G3]^O4\\\\\\PSMQQ(%1H:2D1$!)<N70*@HZ.#DI(2(B(B^ER'WI( %D*( 3 X/(CXL8F\\\\[FW:]*S>R>YOS )N%J2\\?'Q;@?P].G32"
+    "4A(Z/-Y)TZ<H*&A 9/)Q/SY\\WGAA1=ZG'+T96%A820E);%W[UYR<W,I+R_G[-FS+%[LF2EK/9$ %D*( 1 ?'\\\\;?_@CK;ZV#: 3]#J(&^*9C0\\"
+    "<#@?[]^]G[MRY;G5I)R4EW=8HZLYM*Y<L6<*WO_UMDI.3>W6>1J-Q[5IUZ!#?_.8W\"0X.IJJJJENWM\"=)  LAQ  (\" @@=6;/ X#\\B=UNYZVWW"
+    "N*>>^YQ*X\";FYNQ6\"P$! 3T^IQSY\\Y15E;&BA4K>.ZYYTA-[=LH^+%CQ_+@@P]V34>R6JTWW43#71+ 0@@A/,;I=)*=G=VU=_/M.G[\\.!45%3S"
+    "UU%.]/J>HJ(C4U%2V;-G\"HD6+^GQ-K5;+ZM6K6;UZ-4U-330U-;G].FY&[;>2A1!\"B-MT_OQY,C(R^G3.X,&#>>&%%]Q;'O0:@\\& 7J^7+F@AA!"
+    "!W#JU6Z_8\"%BTM+30V-O;IG+%CQQ(>[IE[V4ZGDWONN<?MQ4EN1@)8\"\"&$S]'I='T./T^%+X!>KR<M+0U5[;^.8@E@(800'N7.&M\"^0J/1]&H+"
+    "3'=(  LAA/ HB\\7B%R'<GZU?D$%80@@A/$A1%$:/'NWVO5.;S8;%8O%0K7R3!+ 00@B/4565#1LVN+43$KA&(?=E#O\"=2+J@A1!\">(RJJJQ?O]Z"
+    "MC1@ $A(2,)E,'JJ5;Y( %D((X5%FLYG@X&\"WRDA-3:6]W=?6[?0LZ8(60@CA,0Z'@ZU;MU)?7^]6.5%140P?/MQ#M?)-$L!\"\"\"$\\QN%PL&/'"
+    "#IJ:FMPJI[\"PD.SL; _5RC=)  LAA/ 8I]-)65F9VR.8CQ\\_SLZ=.SU4*]\\D 2R$$,*CC$:CVW-HR\\K*R,_/]U\"-?),$L!!\"\"(]R=QUH<'5"
+    "E^\\-B'C<C 2R$$,+G:#2:?MV)R!=(  LAA/ HB\\6\"T^GT=C5\\G@2P$$((C]+K]6YW0SN=3K\\/<0E@(800'J.J*C-GSB0P,-\"M<FPV&U:KU4."
+    "U\\DT2P$(((3Q&556V;-E\"1$2$6^5$1$00&QOKH5KY)O^^PRV$$&) J:I*2DJ*V[LA39X\\F;BX. _5RC=)  LAA/ 8A\\-!3DX.$R=.=*L;.CDY&"
+    "9O-YL&:^1[I@A9\"\".$Q#H>#UU]_G;JZ.K?*<3J=,@]8\"\"&$Z\"V'P\\'1HT=I:6EQJYS,S$SV[MWKH5KY)@E@(800'M7>WN[V%*(S9\\[PV6>?"
+    ">:A&ODD\"6 @AA$<9# :WYP'7U]=365GIH1KY)@E@(800/D>KU:+7Z[U=C7XE 2R$$,*C/+&\"E:(H'MG4P9=)  LAA/ HL]GL]R.8/4$\"6 @AA$?"
+    "%QL:BT^G<*L-NM\\L\\8\"&$$**W-!H-]]Y[+R$A(6Z5HZHJ&HW&0[7R3;(2EA!\"\"(]1595''WV4\\/!PM\\H9/GRXAVKDNR2 A1!\">(RB* 0'!"
+    "[O=>DU-367\"A D>JI5ODBYH(800'F.WV]F^?3N-C8UNE3-RY$CNN><>#]7*-TD \"R&$\\!B'P\\$[[[Q#0T.#6^545%107%SLH5KY)NF\"%EZ3E9"
+    "5%7FX>'>8.%/I_OI\\3)P&! 4R=/I5QB>/Z_7I\"W(V<3B<%!05T='2X5<ZQ8\\<H*RMCW#C__;LJ 2R\\YI7?O\\+[?WL?D\\F$$_<G[M^*@D)K2R"
+    "LO_.,+C/N6__ZE%L+;W)V\"!%!86,CY\\^<]4!O?)0$LO*;T<BGCYHYCQ;TK:*.MWZ\\71!\"O_^YUKI1=Z?=K\"7$W4U75[56L+!8+[>WM'JJ1;Y("
+    " %EZCU^I)7I[,DYN?I!'W!FST1CCAG#IS\"K5-ACX(X>ONAK6@)8#[H+V]G9J:FKMB?MI 4!2%CO8.FJ_]]#<=.JP6*XKJW^O+ROM4>)O-9O/(>M#^"
+    "3IH\"?7#^_'F^^]WO>KL:?L7A<&##AGT ?FS8<#K\\_T-!WJ?\"VR1\\>T<\"N _:V]O]?H-H<>>3]ZGP)D51F#AQ(B:3R:URK%:KVR.I?9UT0?=\""
+    "4U,3M;6U%!45H=/I*\"@HP& P$!T=C<%@\\';UA #D?2I\\@T:CX>&''W9[*<K@X&\"WR_!U$L\"WX' X.'OV+'_]ZU^Y=.D2=75U_.QG/V/HT*$\\"
+    "]MAC#!TZU-M5%.*&[]-APX:Q>?-F>9^* :.J*DN7+B4@(,\"M<I*2DB2 A>L-93*9T&@T*(J\"7J]'J]7Z_6;1XLXB[U/A\"YQ.)V5E9<3'QV,T&F^"
+    "[G!DS9F\"Q6#Q8,]\\C]X!O05$41H\\>S<:-&UFP8 %!04$\\\\L@CK%RYDK\"P,&]73PA WJ?\"=]CM=O[PAS]05U?G5CF!@8$,&C3(0[7R3=(\"O"
+    "@5%41@\\>##AX>%45U<3'!S,E\"E3 -<\\-2%\\@3OO4U55457Y+BX\\P^%PL'?O7K9LV>)6.6?.G*&AH8&E2Y=ZJ&:^1_[6]8*JJFBU6B(C(TE,3$"
+    "2GTZ'3Z:1K3_B4VWV?ZG0Z&:0E/*JAH0&;S>96&5E96>S=N]=#-?)-TH3K@]C86-:O7]_G\\ZJKJ\\D^E4U=31V*HA 9'<GDJ9,9'#&X'VHI[G:1D9"
+    "&L6[?NEL>5EY>3FYO+J<Q3F(PF]NW=1\\J,%+_O]A/]SV@TNMVK4E5514E)B8=JY)LD@'O)Z702'A[>JP^V+VII;N']#]]GZU^V4G*I!%51&35F%)L"
+    ">V,2Z->L(#0OMIQI[A\\/A0%&4?ND=4%%QX.CZ74'I>NS+FSET[JXT$)L\\>%/G@@=?_/..B8EAS9HU-SVOHJ*\";>]M8\\?'.[A8>A&;U<:/?O8CO"
+    "O:5K['ZOM48C-(B%MZEJBH:C<;;U>A7$L\"]9#:;;VMYOS???).M[VUE^.3A3%\\['9O5QI7\"*[SVQFO4U];SW'//N352T-<T-#30TM+\"B!$C/%J"
+    "N@H(.'18L7:&JH*!%V[62UA=I</W%M>%>-YBO:V]OIZJJBI$C1W8]IM%H;OK!55M7R\\]_\\7..GCI*_-1XYFV:A]UFYT+.!?[GM_\\##GA@XP,#47"
+    "TA;NAN&)MP1P>PP^&@JJH*556)CH[N]^N=/GV:W;MW,V_>/,:.'7O+XT^=.L6[?WN7B+$1;/SZ1L8GCL>*E3/99]C^^G8^W/DA\\2/B67/_&H]LW^4"
+    "+FIN;^?###QD]>C2S9LWRR#P^!06+Q4+1Q2*&C1V&3JM#1<6.G=.G3A,Z.)2883$X<:*@8'?8J:JIPNEP$A4;=5VKV=]8K59V[=I%='0T,V;,(\"XN"
+    "[J;'M[:V\\NX[[[+_Z'XFID]D]6.K21R=\"+C>W[_YP6_XXU_^R+1ITQ@U>M1 O 3AA\\QF,PZ'__Z]\\Y0[^NN%U6KEZ-&CG#AQHM^O930::6]OYW"
+    "O?^QZOO/(*65E9-#4UW?!XN]W.]O>W8P^P\\\\0_/\\&HQ%&8,6/#1N+D1)[YCV>(&1?#&V^^05EI6;_7?Z 8# :RL[-Y\\<47>?_]]RDM+<5L-KM5"
+    "IH)\"6W,;'[WY$>96,UJT*\"CDG\\IGS[8]5)=5HUS[T:#!87=P[L0YSAP[@_;._HYY2SJ=CI*2$O[]W_^=M]]^FZ*B(MK:;KRU8VYN+F^_\\S93%D"
+    "[AB6\\]P?#1P^FX]I,X,9$G__E)+M=<YL\"! _(!*FY;2$B(V]W'#H<#N]U^ZP/O8'=T -OM=O+R\\B@H*.CW:RF*PKAQXP@-#>6MM][BG_[IG_CUK"
+    "W]-<7%QC\\>772GC7/XYDF8DD3@J$04%&S8<.- J6F)\"8ECUU55<KK[,J9.G^KW^ R4\\/)RI4Z=R[MPY7GKI);[YS6^R8\\<.M_;U5%$QMYLY\\>"
+    "D)+!T6=.AH:&C@G=^\\0T-- T-'#^UJ_6K0X' X*,DOX=+Y2UU=T?[*:#0R?_Y\\BHN+^<UO?L,WOO$-MFW;1F-CS]L['CETA Y-!ZL>6T6$*0(5%="
+    "NU'U51F3QU,J,FC.+4F5/4-]8/\\*L1_D!5518L6$!P<+!;Y3B=3K__$NCSS8.*B@KT>CT1$1&TM[=W+?!]Y8IK4W6[W4Y+2\\MUYSB=SJXA\\&UM;"
+    "1@,!H_<9QT[=BP//O@@W_G.=ZBLK.3RY<N4EY>3GI[.K%FSKNO^R\\O+HYUVDF<G ]!!!PH*3IQ8L6+'SM3DJ8Q/&<_ASP^S:/$B0D)#W*ZCMQD,!E"
+    ":L6,$;;[S!R9,GR<O+HZ*B@H*\" M+2TI@U:U;7E)>^#-1RV!W45]>CJJY!5Y]L_81+>9=XY/E'B(J*<I6'0D5%!0X<..P.6IM;NP9C^2M559DS9PZ"
+    "S9LUB]^[=%!4545E9R<6+%YD[=RZS9LWJ&M5<7EI.5DX64^=/9=S(<333?-T@M0XZ&*0.8N;BF1Q][RAE964,#I>1^J)O-!H-7_G*5XB(B'\"KG)B8"
+    "&+>^N-\\)?#: G4XG%RY<X/CQXX2&AC)BQ BL5BM3IDPA)R>'G)P< @,#J:VM[7;?RVPVDY>7QY4K5ZBKJR,M+8TQ8\\:X72>#P<#:M6OYW>]^1UE9"
+    "&45%1?SJ5[_BX,&#//;88ZQ<N9)APX8Q:- @2BZ5H!VD)7Y,?%?X?I'CVL^\\^^;QP2\\_H+&AT2\\\"&\" A(8%-FS:1FYM+1T<'!P\\>)#,SDX4+"
+    "%_+88X^1FII*;&PL?<E&15'0&_6H&I6S9\\YRY.,CS%HVBP5K%[B^U-BL%.06</[D>8PF(_75]9B\"NN_&XG0ZT>G]XWY[IZ\"@(+[ZU:]R^/!AVMK"
+    ":R,C(X-2I4QP]>I3-FS>3GI[.D\"%#R,_/I[*QDL6+%E\\WF*V3@H(9,^.GCF?WV[NIO%()D[STHL0=2U$4XN/CW9Y;/GWZ=!(2$CQ4*]_DLP%<5U?"
+    "'2R^]A$:C8?#@P;SSSCLD)R<3&AK*2R^]1&!@(!T='9P^?9JO?O6KUYW;VMK*CAT[.'3H$$ZGDV'#AGDD@ 'BX^-9LF0)K[_^>M=C9\\^>Y9>__\"5"
+    "[]^YEPX8-//;88]16UZ+1:1@<.;C;\"-U.#AR,G3J6VH9:&NH;&#'2LR.'O2DU-97APX=WW1YH;6UEW[Y]7+AP@=FS9_/LL\\]B-IM1-3>^\"]+YI:"
+    "7S_S5:#0W5#?SU]W\\E+\"J,^QZ_#P.NO^0E)26\\^9,WT>EU..P.\"G(*6+)Q2;<O/HJB^.5]I;2T-,:.'4MV=C;@&A]QY,@12DI*^/CCCWGNV>>X"
+    "6' 1\"Q9&3QB-%6N/Y=BQ$SLLEG9S.TV--Q[C(,2-.!P.]N_?S]RY<PD)N?U&15)2DG1!>X/#X>#,F3/DY^?S]--/H]%H.''B!!<N7.#DR9/4U-1PW"
+    "WWW<>7*%7)S<[MM_FRWVSE^_#@VFXV5*U<R9,B0;M?(R,C@O??>Z]9]?2N*HG#QXL5NCY>6EE):6LJE2Y=H;&SD5-8IC*.-!*E!--/<\\^O$061T)!"
+    ":[A>__X/O$Q,;TJ2Z^2E$4KEZ]VNW/MJVMC?S\\?\"Y>O$AU=36GSYXFY>&4'LO07?OI\"E^-!HO9P@>O?<#!]P^R\\I&5C!DZAC;:L%OMY)W,H[JL"
+    "FHU/;*2JMHJBW*(>YP '!06Q[Z-]//?<<YY_X5ZB* H.AX.&AH;K'N_HZ*\"PL)#\"PD(:&QMI:6HA<&0@D4&1M-+:8UD.' S2#L)NM=/1[M][L8K^"
+    "8;?;>>NMM[CGGGO<\"N#FYF8L%HO;NRKY,I\\,8(O%PHD3)TA,3&33IDUT='1PZ=(E3ITZ179V-FEI:3SRR\"/4U-107%S<;=-F557IZ.A@R9(E_,N"
+    "__$N/UZBNKN;HT:,W'*QR(TZGDXJ*BAL^W]K:2D%! 0WU#0P9.P0-FILN!M$Y2\"@[)YO BX%]JHNO4A0%L]E,;6UMC\\\\;# :NE%^AI:4%C=KS(*"
+    "G:NEJN-ES%X7 0$A*\"$R<=[1UD'<AB>,)P*DLKJ6RI)#PHG(;6!O)/Y9,T/8EUF]=1WE!.56D55HNUVY^]3J>C[$J97VU8KR@*3J>3RLK*'I_7Z_5"
+    "45E;2W-A,8D+B+0>FJ=?&9G[YBZT0O>%T.LG.SK[I:/S>.'[\\.!45%3SUU%,>JIGO\\<D [@S<SKF]!H.!Q,1$#APX0$5%!2DIKE931$0$PX</[]:"
+    "EZ'0Z\"0D)(3(R\\H;72$M+XY>__&6?UBM5%(6&A@9^]*,?L6?/GF[/3YDRA<V;-[-Z]6I^]<M?4=9>1COM78.ONI6'0G-;,ZJB\\F__W[\\Q8=*$7"
+    "M?%ERF*PO'CQ_GVM[_=[0M.2$@(BQ<OYIEGGN&'W_\\AK:W7M\\0ZIQ/E9>61>2 3J\\7*A!D32$I)0E$5DE*22%N6QFL_?(W,_9DL7;64]M9VJLNK"
+    "&3/)=9MA4-@@8D?$TEC;_<M5<W,SRQ8OX_E_?K[__@ &F*(HE)>7\\]133W4+X<Y1TE__^M?).YO'[I.[:78T=PUFZU86BNL]JRIH=3[Y\\2#N$N?/"
+    "GR<_/U\\\">* Y' YL-MMU(Y>#@X.QV6Q8K5;T>CW@^N QF4S=NCH=#@>AH:$$!MZX11D>'GY;BT24EI9V^Y ;-VX<RY<O9]Z\\><R>/9NHJ\"CB1\\"
+    "53DE=\"8VLC@8&!/=X'5E$I+RHGR!C$_'GS&3'*?^X!GSQY$JOU[_<9M5HMBQ<O9O'BQ:2FIC)[]FQ>_>VKUQT#_'TQ#;L=F\\6&S6+#[K#CL#O0&_"
+    "4LV;B$R3,G<W#'03YZ\\R/FK9B'T^'$:G&]+SKHP(D3H\\G8XY<>B\\7\"Z.&C24Y.[O<_@X%45U?7;;[UG#ES6+Y\\.:FIJ:2GIQ,4$,2NH[NX4GJ"
+    "%X2.&]QC *BIUC77H#7H\"@_RC1T8,/$_L0]W2TM+G'LH[C4\\&L,%@(#8VEO+R\\J['RLK*\" X.)C0TM\"L K58K55557?/-.EO\"#H>C:S-R3[+"
+    ";[?SI3W_BS)DS  P;-HQQX\\:Q8L4*-F[<>-UH[)C8&&Q9-LHOES-A_ 3:N7XX?><RBL=W'V?T\\-'H#/XS,K>PL)#77GN-UM96=#H=B8F)3)\\^G0"
+    "<>>(\"E2Y=V_7<QF\\T]_B5UXB0^,1Z3R83#X2 J+JIKIY\\Q$\\<09 ABR<8EO/0/+Y%Q,(,),R80&A%*344-0031[FBGMJ*VQV7L5%7UNZD-S<W-"
+    "_/*7OZ2QL1%%41@[=BR3)DUB[=JUW'___5U3]R*C(@DSA7'JT\"G&;AZ+#5NW+RD&#!3E%A%D\"\"(J.LH;+T<(X.[8I<LG ]AD,I&4E$165E;7-_N"
+    ",C PB(R,9,V8,65E9-#<W4UQ<3&YN+FEI:8!K)&Q+2PN#!@W\"X7!X? 1=24D)[[__/JJJ,GSX<!Y[[#'6K5O'J%&CNDTZ3TQ,1'U7Y?RI\\TP9/^6"
+    "Z;NC.\\*V[6L>QO<=X<-F#?O-AYW X.'KT*%E96>CU>F;/GLV33SY)>GHZ$1$1O?I2Y,1)S/ 8(N-<MQ#T&CT5Y16NUK#-CHK*N*GC&#MU+.^_^C[C"
+    "D\\<3/SZ>DP=/4M5<15EY&1?/7&34A%%^/P_8Z722FYO+D2-'T.ET3)DRA2>??)+ERY<3&1G9%;[@>D^.'3F6C$\\S6+%I!7JM_KH05E%14,@^DDUD"
+    "<\"1Q0V^^K*40-^+OHY<]Q2<#6%$44E)2V+%C!R^\\\\ *#!@TB*RN+>?/F,7?N7/;MV\\?SSS^/HB@4%!20FIH*P/[]^\\G+R^,K7_D*%HL%B\\7B"
+    "L3I9K58.'SY,144%7_WJ5UF\\>#$I*2F,&M7S>KD)HQ.(#(GDY*&3W+OA7HQZ(V;,7>&K1<LG?_J$]MIV4F>E>KRU[BUE967LVK6+A(0$-F[<R-RY<"
+    "YD^?7J?5\\71:_6H6K5KQR.<T-;2AM7J6L1D<,1@%F]8S,^>_QE'=Q]EZIRI9.S)X+^^\\5\\H.H7B\\\\7$CX_W^P!N;V_GO??>(SHZNNN+SO3ITQ"
+    "D\\N/L\"&J8 $VEI:>SY\\1[V?[B?U>M6 W_?L,* @=J&6C(/9G)?VGT#LKZZ\\$\\6BT5\"N!=\\]E,_/CZ>-6O6\\.&''[JZ(:^M=C1AP@26+EW*"
+    "T:-'B8Z.9N7*E4R>/!EP=6E65U>CJBISY\\[UZ\"1NJ]6*P^'@X8<?YL$''V3*E\"DW/3XH*(@EBY?P\\U=^SHYM.UBV9AGAP>$X<%#=6,V)@R?X_("
+    "//N7?IO22.2_18/;VMO;V=(4.&,'_^?-:O7T]86-AME6._]@.ND>*F(!-+'UR*,<\"(%2LJ*M/2I[%@[0)P0OSX>&:OG$W6P2S\"@\\-)6Y[&N.1Q-"
+    "YSOZB\\Z.CHP&HT\\^^RSK%Z]FJ%#A][T^!FI,TB;EL;./^XD*#2(*:E3\" ]PC86H;JCFW3?>A1:8.V<N1H/_[-(E!HZB*(P>/=KM[F.;S>;11I0O"
+    "\\MD 5E65-6O6L&C1(CHZ.MBZ=2O%Q<7H]7J>>.()-F[<B%:K1:_7=PW*FC)E\"D:CD8B(\"!YYY!&/[B6IJBII:6FL6[>NUZVYE?>NY,\"! ^S;NH"
+    "\\@4Q#C9XS'8K%P_L1Y=KRZ@\\1AB3S^U<?]:@/TJ*@HGGSR288/'^ZQ^S=V[(2$A_#,#Y[!%&C\"CAT'#D+\"0OCZ?WP=C4:#7J]GY>:5S+]_/AJM"
+    "!IU>AT[GVK[0GVFU6AY[[#'BXN*NZVZ^D=C86)YZ\\BF^^[WOLOW7V[&T6TB8E.\":>W_D#(??.\\Q]\"^YCQLP9 U![X8]4567#A@VW_>6[D\\%@\\"
+    ".LYP.## 0RN^8N=(Y4# P.[1LR:3*8>/VP,!@,C1HP@+\"S,X]O[Z70Z1HX<V:=R@X*\">.JIIWCCS3?XX/<?L.UWVW#:G03H YA^SW0>?NCA&W9AW"
+    "ZD&#1KD]E^\\GFA4#5%!4;32BO/:CXI*9% DUFL_(:80PDQA7<_9L'5U^_LKD\\G4IYX>15&8.'DBSS[]+.]]^![;?[V=#GL'%HN%8$,PR^8N8_.CF"
+    "_UJCVHQL%159?WZ]6XW+!(2$GKUI?).YM,!W,EFLQ$='<WX\\>-O>EQX>'B_A\"_<>I/S&YF:/!6GTTG@.X%L^\\LVPD+#6+!J ?>ON_^6W=AW(D_V"
+    ".GR1 P<MM'1[[(LK.IGIONVA/X<O<%MC!S0:#4N7+R4P.)\"='^WDG6WOH#?H25^?SJ.;'R5AC'^OOROZG]EL=GLWI-345+^;L?!E=T0 JZK*E\"E3"
+    ";OE-?^3(D0-4H[Y)GI;,Q(D3:;S:2'14--_\\EV_Z_3<[X?O2TM)(GII,=6TU<7%Q?.M;WT)OT'N[6N(.YW XV+IU*YLW;W9K(%]45)3?K\\9V1^P'"
+    "K*HJPX8-(S'QYH.5%$5Q>_)W?]'I==34U)!S.L?O!Q:(.X.B*+2VM5)47$3YE7*_VR5*>(?#X6#'CATT-;FWF4=A86'7YB+^ZHX(8*!KP-6=*B<GA["
+    "-GSW+PX$'R\\O*\\71TA ,C,S\"0K*XN,C S.GS_O[>H(/^!T.BDK*W.[H7'\\^'%V[MSIH5KYICLF@.]T&1D95%144%]?3T%!@=]WK0C?T-#0P(4+"
+    "%WI\\SNET<O;L61H:&B@I*2$_/W^ :R?\\E=%H['$ENKXH*ROS^_>D!/  .7WZ-%>O7@5<ZR0W-_>\\1:$0GG3BQ E^\\(,?]/C<U:M7NY95;6QLY-"
+    "RY<P-9->''/'$KL#]6,_0U$L #H+*RD@L7+G2U>H\\<.4)-38V7:R7N!LW-S9P^?;K'YTI*2KH\"N',+.7E?\"E^AT6C\\9H7 &_'O5^<C<G)RN'CQ"
+    "8M?OY\\^?I[BXF-&C1W<[MJJJBOKZ>IQ.)Z&AH<3&QOKLP#+AFYQ.)S4U-5145%!86 A =G8V@8&!URV0DIN;2W%Q<==YV=G97+QX\\:;;> K1&Q:+"
+    "16ZS]8*T@ = 3DX.ER]?[OJ]N;F9W-S<'KM7,C(R>.VUUWCUU5?Y[+//NNUU+,2MV.UV3ITZQ>]^]SOV[-E#964EO_[UK]F^??MUV[N=/7OVNI&JQ<"
+    "7%%!04>*/*PL_H]7JW&PY.I]/O0UP\"N)^UMK9RYLP9;#;;=8\\?/WZ<^OKZ'L_QY>E4PO=U[I,=$Q-#<' P6JV6Z.AH0D)\"NA9**2\\OY_3IT]=]"
+    "P-EL-DZ?/DUK:^N-BA;BEE159>;,F3?=C[TW.O=_]V?2!=W/+EVZU./TCHR,#,K*RKKM6G///?<0&AJ*T^DD)B;&[9&$OLSI=&(,,!)\"2+=]:?M#\""
+    "\"'H#7J<9C__5JVJC!\\_GNCH: P& Q<O7F33IDWH]?JNU8DN7+A ;FYNMW,S,C*X<N4*8\\:,&>AJ\"S^AJBI;MFPA(B+\"K7(B(B*(C8WU4*U\\D"
+    "P1P/SM]^G37?3:-1H/#X<#I=%)45$1A86&WY2A'C!C1M:.-1J/QZP!V.!S45M927%O,5:[V^_6::**AKH&H /_8>_E&%$5A\\.#!1$1$,&+$\"$)#0"
+    "QDW;AQ U_LI/S^?2Y<N=3OW[-FS%!4520\"+VZ:J*BDI*6YOQC)Y\\F3BXOQ[3VH)X'Z6DY-#75T= ,G)R;2TM)\"7EX?3Z>3DR9,L6[:,H*\"@KN-"
+    "O=\\WI.Y&B57CO]^^1\\VG.@&P;J$=/SJD<)FR9T._7\\K;.VQB=:ZA_\\8M<4U,3.3DY7=W/.IVNJZNOH:&!O+P\\EBU;YI5ZBSN?P^$@)R>'B1,G"
+    "NM4-G9R<W.W6G;^1 .Y'-34U'#]^'( Y<^:P>/%B]'H]>_?NY=-//^633S[A:U_[VG4!?#>Y=]6]Z+5ZS.:!V;'(B9-5\"U<Q=_[<?K^6KQ@Y<B1KU"
+    "ZZ][K'+ER^S?_]^ #9NW$A141%VNYW0T%#V[]_/X<.'V;)E2[_L:B7\\G\\/AX/777^=?__5?W0I@I]/I]_. )8#[44Y.#E>N7&'RY,F\\^.*+E)>7"
+    ",V'\"!*9-F\\;5JU<I*\"B@N+B8X<.'WY6#KK8\\MH5-#VX:T+]D&HT&@]$S^Q3?\"4:,&,&P8<.Z?G<ZG>3GYU-14<'<N7-Y\\<47^>UO?TM@8\" "
+    "+%BR@K*R,\"^S&@@  ( !)1$%4W-Q<+ERXP,R9,[U8<W&G<C@<'#UZE):6EEL??!.9F9G4U-2P<>-&#]7,]T@ ]Z.\\O#S&C!G#TT\\_37IZ.O_T3_"
+    "]$>'@X*U>NY#__\\S]Y^>67.7?N'#-GSKPK=T?2Z_5W]/K>=P)%4:Z[I6&Q6\"@N+B8]/9T77GB!R9,GH]/I\" @(8,&\"!?SPAS_D%[_X!04%!1+ "
+    "XK:UM[>[/87HS)DS%!042 \"+OK/9;(P<.9(GGGB\">^^]%X\"+%R\\R9LP8C$8C2Y<NQ6ZW8[%8_+Z;1?@.F\\U&8F(BR<G)S)LW#X\".C@[,9C,!"
+    " 0&L7[\\>L]E,='0T-IO-[U<B$OW#8#\"XW:M77U]/966EAVKDF^1O5S_Y_]N[\\_@F[CM__\"_-C&[)LBW?I[ =VQC;,F!L()@CA#OE\".$((4D)>"
+    ":3Y=;N_[K;I8[/9_MHFS7W\\=M/==K._;-.F36G. DU#\"\"$0\"!!S&&QC@VWP 388&VSA4])(,_/[@VJ^*.(*.A'O)W^$,*//?\"2-YOVY/X(@8,"
+    ":,&5Y](\"J5RNN!MF#! MAL-BB5M T<\"0V697'777==<]S! P\\\\@,'!02H8DK\"ZU7? NQ$4@(-$J53Z#,._T@(;<7%Q4;_:\"XD<*I4*&HWFNN"
+    "?%Q,10 \"8W+1#/M-MA0:+HG60:9M]F_FZTWV0D<GR;^S*:YZ\"3X'(X'%2 NP'T\"PLAE\\M%:SL30J)>:FJJWUUK@B!$_3Q@\"L AQ'$<U2H((5&"
+    "-95DL6K0()I/)KW08AHGZ18FH#SB$BHN+HWYI-4+([8UA&*Q=NQ;Q\\?%^I9.5E16@'$4N\"L AM&3)$B0E1?<ZQ(20VYM\"H8#1:/2[]EI968EQX\\"
+    "8%*%>1B=I#0ZBLK,QK52)\"\"(DV@B#X[#U],W)R<E!<'-WKME, #J'6UE:</W\\^W-D@A)\"@$441'WSP 6PVFU_I='=WRSO)12L*P\"&T<>-&'#E"
+    "R)-S9((20H)$D\"2=.G(#3Z?0KG>KJ:FS9LB5 N8I,U <<0C4U-7YO4DT((9$N$*O[M;:VHJFI*0\"YB5Q4 PXAN]T.GN?#G0U\"\" DJAF'\\7F\""
+    "(YWG8[?8 Y2@R40 .H6^N!4T((>3*;H>UH\"D $T((\"2BWVTUKW-\\ \"L A1#<D(>1V0,^Z&T,!.(1XGH_ZM4T)(;<WA4*!DI(2:+5:O])QN5Q^C"
+    "Z2.=!2 0\\AL-GOM#TP((=&&95FL6;/&[Z4HC4:CWVE$.AH1%$)5557(R\\L+=S8((21H&(;!W+ESH=/I_$JGJ*B( C )G,6+%U,-F! 2U21)0E=7%"
+    "RP6\"S0:S4VG4U%1$?73-JD).H1,)I/?_2*$$!+)!$' VV^_C;Z^/K_2T>OUB(F)\"5\"N(A,%X!#Z\\LLOT=S<'.YL$$)(T(BBB.W;MV-H:,BO=(X"
+    ">/8J]>_<&*%>1B0)P\"&W9L@4-#0WAS@8AA 25S6;S>\\9'34T-MF_?'J <128*P\"'4UM:&\"Q<NA#L;A! 25!J-!@SC7WCIZ>G!J5.G I2CR$2#L"
+    "$*(95F_UT>]U3F=3HR.CD(4Q)!=DV$9:+5:OP:$$$)\"BV$8L\"P;[FP$%07@$&)9UN]2X:WNPX\\^Q ?O?@\"[W0XF! TP(D1H-5HL6[$,#S_T<-\""
+    "O1P@)#(9AHOYY20&8A-2N';NPZ_ NE%I+P2/X4PQ44.%0W2'$QL52 \"8D1!P.!T0Q=*U<MRH*P\"$D\",*WNBD%04!/3P]24E*BIB0HN 3,6ST/3_"
+    "X_3^(B+@;]>K&(Q6LOOP:QG1X&A(2*R63RN_E8%$4(@A\"@'$4F\"L A)(KBMUJD?&!@ $\\]]11^]:M?1<U\\.(5\" 5.\\\">FF=.C@WTHY-R(.<"
+    "3#%FS#4X=^4\"$+(C6$8!K-FS8+1:/0K'4F2HKX630$XA/+R\\I\"4E'3#YW,<AZU;MT;5GI@*A0*\\@\\<@!C&$X =%%BQX!W_;#WXC)%18EL6Z=>"
+    "M@-IO]2B<E)05VNSU N8I,%(!#:-&B1<C(R+CN>7:['1<N7$!W=S<T&@V.'S^.Q,1$F,UF6DF+$!+1% H%+!8+U&JU7^F4EY='_=KY%(!#J*JJ\"AQ"
+    "W_8^\\O;T=?_[SG]'=W8W!P4'\\]W__-U)34W'__?>CL+ P!#DEA)\";(XHB=N[<B:JJ*IA,IIM.IZBH*.J;H*-C9,\\MHK^_'R,C(]<]3Y(D2)($M"
+    "]L-29(@\" )M<$T(N24(@H!WWGD'_?W]?J4S-#0$F\\T6H%Q%)@K (;1ITR;4UM9>][RTM#3<>^^]6+9L&;1:+98O7XYERY8A-34U!+DDA)\";)TD2"
+    ":FMK,3HZZE<Z^_?OQY8M6P*4J\\A$ 3B$]N[=B];6UNN>9S*94%Q<#*O5\"IU.!ZO5BG'CQOD]JI 00FX534U-.'#@0+BS$534!QQ\"-IOMADJ%#,-"
+    " I5(A-C86^?GYB(V-C:J1T(20Z,9QG-\\S#X:'AW'Q8O#7\"@@GJ@&'D%JMOJ%!6!Y*I1(K5JR(^O50\"2'DFY1*I=\\CJ2,=U8 CF$ZGP\\J5*V_X"
+    ")K3;[7\"[+@W<8CD6:HT:'$M?,2$DM*)]]'*@T-,Y@BD4\"NCU^ALZM_UT.W[_]N_1>*01+MZ%E,P4+%J\\\"-]9\\!TH0(M0$$)\"A^=Y\"L(W@ )"
+    "P\"/$\\?]U-JCLZ.J!4*I&>GG[#Z79V=N*-_WD#^^KV8=0Q\"DF4T'6B\"^?_=!XC@R-8NF0IM)K@+. A\" +.G#D#AF%N:)&1;T,--5QP0<2E'[(\""
+    "\"JB@@@ !;OBWV3<A)#@4\"@5R<W/];CYVN]W@^>!OV!).%(!#2*_77_>F/';L&$Z>/(GY\\^<C,S/SNBM?N=PNO/^7]_'7K7_%DO5+,'7!5&AT&C0"
+    "=:<+FMS;CC?]] ^9$,V;/F!V4OF2WVXVC1X^BJ:D)RY<O1TI*2L#VW1UR#(%3<6 8!HJ__QD8'8\"\"44\"MB>Z^(4)N50S#X+[[[D-<7)Q?Z:C5:N"
+    "ATP5\\O/IQH$%8(E9>7(SL[^YKG6\"P6;-RX$3_^\\8_Q_OOO8V!@X)KG-QYMQ.8MFS%SQ4S<O?1NY(W)@R79@DDS)V'M_[T6Q@PC_O?-_T7+B99 O"
+    "A49QW$PF4S8M&D3?O2C'^'##S^\\;IZO1P$%!)> 77_=A4';(%BP8,\" =_'8N7$GFFJ:($D2-:T3$H$8AL'RY<L1&QOK5SIY>7D8/WY\\@'(5F:@&"
+    "'$++EBV[[DV9GY^/N+@X;-RX$>?/GT='1P>JJJI07E[NLR,2[^*QY^L]&'(-8=7Z54A.3(8==DB0H-?H,7W:=+@%-W[U+[_\"ESN^Q-C\"L0%_3RS+"
+    "HK\"P$/'Q\\=BX<2-Z>GK0T=&!.^^\\$Y,F38+!8+BI=-UN-SY_[W/<8;T#J>94N.'&SHT[L??3O5CU#ZO *E@Y #-@($\"0FZH)(>'E<#C\\7K=@\\"
+    "N3)4;\\90\\37@\"_O-[W6<HRB*$9\\I[_%8KGN#B$<Q^&AAQY\"3$P,]N_?C^>>>PXOO/ \"-F_>C*ZN+C@<#OE<VT4;ZIKJ,/[.\\4A*3((##DBX"
+    "]!FYX<8PAE$QO0*ETTIQX.\"!H\"WKEI\"0@-6K5X-E6>S;MP\\OOO@B7GSQ17S\\\\<<X<^8,G$ZG?.Z-S U40 %1%-%QO .\\@X<**K2VM.*3/WZ"
+    "\"N,0XY%OS 0 B1 @0,.J\\-+>:B?S;F9\"H)XHB-FS8X/=2E$E)2<C*R@I0KB)31#^Q/$N:-3<W@^=Y='=W>QT7! ']_?WHZNI\"<W,SSIX]&Z:<W"
+    "IB:FAJ</GWZNN?-G#D3965E  \"7RX6OOOH*SSWW')YXX@E\\_OGG<H'D?.]YG.D]@PE5$R!!\\JH!2I#@AAL:A0:3YTY&S\\4>U-?6!^>- :BLK,2"
+    "4*5,  \",C(]B]>S>>>>89//GDD]BU:]=U!Y]=B=OM!L,P&,4H_O+__04 L/B[BZ'7Z3$\\-(S>L[WH[>I%<VTS+O9?O&8 INT(KXX^&Q)(HBCBXX\\"
+    "_]KLKJK6U]8:6[KV516P3M-/IQ(8-&W#BQ DD)\"1@Y\\Z=B(^/QYHU:^1S7\"X7JJNKL6?/'IP_?QX+%BP(^$C<0-JZ=2NF39N&W-S<:YX7&QN+]>"
+    "O7HZ:F!B,C(W ZG6AN;D9+2PML-AL:&QLQ;=HT7#A_ 8/#@\\@KR8,+KBNFY803Q>7%^\"OW5W2>Z@S&VP( Y.3DX,$''\\3^_?OA<KG@<#C0U-2$D"
+    "R=/PF:SX<B1(Y@Y<R8&!@9@M-Q8TY12K02GY+#STYUH;VK'@C4+4&HMA1-.=#1W8,_?]H#A&$BBA(,[#N([#W\\'26E)/DW1HBA&_81^?ZC5ZHAO/2"
+    "*W#DF2T-75Y?<(YOW[]^/4J5.HK*P,4,XB3\\0&X/;V=OSQCW]$964EG$XG-F_>C/'CQWL%8$$0L&?/'FS<N!&YN;D!';(NBB*ZNKIPYLR9@*6Y8\\"
+    "<.C(Z.^O3E?I-\"H8!*I8)*I?+:/4F2)&S;M@U??/$%?O\"#'R M)0U.AQ,)B0ERT_,W\"1\"0%)\\$38P&U?NKD5MP[>!_LQB&@2B*8%D6+M?_*0R"
+    "XW6Y\\\\LDG^/SSS_'$$T_@_/GSB%?&^[R>_?L?#T^M['C-<7SZIT\\1GQ2/V2MF0X($0130V=*)O_WA;YATUR1DYF:B9G<-S\"EF+%^WW\"< JU5J"
+    "='1UX.NOOP[*>[_5M;2T8-RX<>'.!HDB&HT&#.-? ZNG93.:160 =KO=.'3H$$PF$QY[[#$XG4ZTMK9Z/=B!2P_I<^?.(3T]'<\\__SQ24E(\"FH>/"
+    "/OH(O_WM;P.V%6!;6QM.GCR)K5NW7O,\\A4(!29(P-#1TQ>.\"(&!T=!1# T-PN]S0<3HXX+CBN2)$:*&%,=:(]__P/G;NWNGW^[@2AF' \\_Q5\"T"
+    "&\"(&!D9 0\\SU]Q]/+E@Z@8,% PESZ#S6]MQKE3YV RF\\ P#\"1(4# *..P.2)*$98\\M0WIJ.EB.Q>Z/=V/YNN500.%5(#$:C=A7O0^//OIH4-["
+    "[K>[,F3.HJJH*=S9(% E$M\\:M,*['7Q$9@)U.)^KKZY&3DX,Q8\\8  \"HJ*M#0T.!S+L=QR,_/1VEI:4#SP# ,\"@H*L&#!@H %X$V;-L%BL<C]N"
+    "U?#<1S>>^^]*_:;3ITZ%;-FS4)5514ZVSLA[9,@0+AF>B)$N)PN%.07H')*<)IS' X'/OOLLRO^8&;,F(%9LV9AVK1I.-5ZRJ<@Q8)%:W,K6FI;P#M"
+    "XI&:E(J\\L#P P.CB*>??/PY'=1W#\\T'%,J)P  .\"4'\"P%%E@KK(A#' HG%N+3/WV*P<%!Z&/T7@'8R3N1GI:.^0OF!^6]W^J,1B/FS)D3[FP0X"
+    "H5EV6^U=OZM*\"+?'<_SZ._O]QH!EY*2@J-'CWJ=)P@\"8F)B K;PP^4XCL/\"A0NQ<.'\"@*79VMJ*!0L6X+'''KOF>7:['34U->CHZ !PJ31IL5A"
+    "@M5JQ?/ER+%VZ% :# ;MV[H):K89MR :CT7C%9F@&# ;X 0SW#V/5RE7XP0]_$+#W<[DS9\\[(BX@ EPHPN;FY*\"TMQ<J5*W'//?= I]/A_0WO@W="
+    "[UY(9,.CMZL61W4<P,CB\"HO(B9!5F@6$83+MG&E;]7ZO0UMB&;>]NP]B)8\\%Q'#@5A^3,9 @0X((+2I42\"H4\"=KL=AACOJ4_#P\\.HG%2)5U]]"
+    "-2COG1#BC>?Y@%5<HEE$!F\"696$P&+RFKUS^=P])DFZIU5)N](;<LV</ZNLOC5AF& 9E965XZ*&'L'#A0J2EI<GK0QN,!I@,)IQI.X-QUG%7G >KA"
+    "!(M)UK .!ED9 9O@-KAPX>Q?_]^ )>^OXD3)^+11Q_%[-FSD9*2<LWO2(2(N,0X%)05P#'J0&9>)ECN4G]PY=V52$U*Q=TK[L;;+[V-UL96%%H+ 0G"
+    "@G?\\GD+M=;BA8!=0Z]14+(K1H!R&AHU*I_&Z&EB0IZH-X1 9@K5:+,6/&8-^^??*_-34U@6$8>>I10D(\"@$L!RM_._E\"QV^W7G5@NBB+>?/--]/"
+    ";VHJBH\" L7+L3,F3,Q<>)$GSYNL]F,Y-AD-.QO0)FU[(HCH550X<\"7!Z!3Z%!<4AS0]^/1W]^/W__^]Q@='45961GFS9N'&3-FH+*R$O'QW@.NKM"
+    "1$+4)$FB4-QE@C1$&$3J\\#I^8@B1),9A,X<)@T>Q(V_>\\F;/GC%MQ1<L>E-:C;SL#%NP 5T-O5\"ZU>\"X/.X!. %0H%7,*51XD30@*+81A45E;>"
+    "\\$8R5^-VNWVZJZ)-1 9@I5*)\\O)R;-NV#>^__SX4\"@6JJZM16EJ*SLY.;-Z\\&0\\__# XCL/HZ.@M$X S,C*NNQ+6T:-'T=W=C;ONN@M+EBS!\\"
+    "N7+K[HQ0T)B O(M^=B]8S?N^^Y]4*E4<,$%\"1)8L-! <VGT[]:O,;UD.G)R<P+^G@1!0$-# \\Z>/8OY\\^=CR9(E6+ITZ;<:$\"=!@C'&\"%.,2:"
+    "ZI#HX,8NCB$.S#=@@0D)\"4@#FKYF##OV_ E'E3((D2ND]U8^N&K8A-C$7-KAI,G#$12E9YU2E9A)#@8Q@&#S_\\\\'47';H>L]F,U-34 .4J,D5D "
+    " : DI(23)PX$;_YS6^0D)  F\\T&M5J-KJXN;-RX$??<<P_2TM(0&QOK=TDK5.Z^^^[KS@%N;F[&O'GSL&C1(N3GYU_SO>GU>DR<,!&;/MN$FGTUF%"
+    "@U4=YP080(VX@-G[WW&<2+(F;>-3,H!167RX7>WE[,G3L7JU:M@L5BN:DN@<L7$E%  85\"@<3T1' J#B)$L& Q;=$T;']_.X[L.8*LO\"Q !'9NW "
+    "F68R&)$A[XYP<@0+CJE\"Q\"2/ Q#(-)DR;Y/??>:K5^JUWA;D41&X!C8F*P9LT:%!86@N,X?/WUU^!Y'O'Q\\2@M+87+Y8)*I<*R9<N\"LLM/,,R?"
+    "/Q\\JE>J:YUBM5DR<./&Z@1JXU+1:.;D2Y27E^./_^T?HU#J,FS(.:JC1>;83?WO[;SBP]0!6+UN-\\DGE@7H;7CB.P_CQXU%65H:\\O+R;3D?Z^Q_"
+    "@4@!6JI1X_)G'D9*5 AX\\)$A(3D_&^J?6@U6S.'/R#.*2XK#HP44011$Q<3&PC+70>M\"$A)DHBJBKJT-)28E?E:,)$R;<U IZMY*(#<  4%A8B,+"
+    "\"0@\"7^AD;&AI@-ILQ;=HTF,UFL\"R+XN+@]&L&@RB*UQU44%!0\\*W2-\">8L7;-6KS\\RLOX](^?XE#U(6CT&IQK/X<S1\\]@ZOBI6'G_2IA,)G"
+    "^R?E4<Q]U08>';D\"\"!XSC,F3<'=MCAAEO>CG#67;/@A!/O'7L/G(K#POL6@OG['SOL%( )\"3-1%/&[W_T.__9O_^97 )8D*>KG =\\2G:>B*$*E"
+    "4LE!Q&PVRX.P;B5;MFRYXEQF?]TY[4[\\TS_]$]P7W?C+?_X%;SSU!D[L/8'9TV?C1S_YT2W9CR)!D@.JIU_8\\V\\\\>&AT&ICB37#\"\"0&\"UT8"
+    "4A)#P$4417W_]-8:'A_U*Y]\"A0]B^?7N <A69(KH&[\"%)$L:.'8NDI\"283\":4E97=D@O(?_'%%Q $ 9,G3PYHN@S#X,X[[X318$1\\3#R^^NHK"
+    "_/B'/\\:$\\@FW=!_*E188<<,-\"1*R\"[(Q8\\D,2*($-^.FFB\\A$<1NM_L]A>CHT:,X<>($5JY<&:!<19Y;(@ S#(.BHB*X7\"YH-)J@++P1\"M"
+    "W=W7[O$'(U&HT&%945.'#P /8?VH_QY>.1E1U]6WEY:KE9^5DPIYJA8!04? F),&JUVN]*4G]_/\\Z=.Q>@'$6F6Z()6J%0P&0RW9+-SI=3J51!'3!"
+    "V\\>)%5%=7HZ&A 3MV[ C:=2*!(<: Y/3D<&>#$!(D',===]#JK>Z6\",#10J%0!+7IO*.C X</'X;3Z41=75W0KA,IKK7_+R$D? *Q@E6PGY>1@)Y"
+    "@4>3$B1/R^M'-S<WHZ>D);X:\"2,+U-Z$@A(2'P^&(^A',@4 !.(1<+A<$(3A!@^=YU-?7RTM=MK2TW!:U8$)(Y$E-3852J?0K#4$0HGX>, 7@$.(X"
+    "+FC+9G9W=Z.FID;^_\\[.3@K A)\"08UD6BQ8M\\GOM 89A;IE%EF[6+3$*.EH4%Q<';5I05U>75P!VN5QH;&S$\\/ P# ;#-5Y)\"\"&!PS ,UJY="
+    "Z[,1R[=U^7:TT8H\"< @M6;($24E) 4]7$ 0T-36AM[?7Z]^/'S^.TZ=/HZBH*.#7)(20*U$H%# :C7[77BLK*S%NW+@ Y2HR40 .H;*RLJ TJ0P,#"
+    ",A[\\5ZNM;45#0T-$1> &88!]_<_P<:! \\-23PLAH2(( C9NW(C%BQ?[M2-23DY.U _DHB=3\"+6VMN+\\^?,!3[>WMQ=??_VUS[_;;#;4U]<'_'K"
+    "^D$0)2K42!AB@#\\$? PQ0JI201%JFDI!0$$41'WSP 6PVFU_I='=WH[V]/4\"YBDQ4 PZAC1LW8OSX\\4A+2PMHNFUM;6AI:9'_7Z?3P>UV@^=Y'#"
+    "UZ%!<N7(B814P$2<#![0?Q&_-O,(*1H%]/#SWV;=N'PMC\"H%^+$')I#O\")$R?@=#K]2J>ZNAI=75WRACS1B )P\"-74U/B]2?4WN5PN'#QX$#S/8"
+    "\\R8,9 D\"1J-!A:+!3MV[,#1HT?1T-\" Z=.G8V1D!((@@.,X:+7:L(PPS,[)QK8=V_\"[EW\\7DLT3%%# Z71B_H/S@WXM0L@E_DY! BZU&#8U-0"
+    "4@-Y&+ G (V>UV\\#P?T#1[>GJP:]<NF,UF_.0G/T%#0P/:VMKP]--/0ZU68_/FS3AV[!@*\"PNQ<>-&]/7U(3,S$PL6+ C*@+#K6;UZ-4K&E<#A<,"
+    "B[' 63A$L%DK'CQ@;]6H202QB&\\7L5*Y[GY74-HA4%X!!2J53@N,!^Y*=.G8)\"H< __N,_XH$''L\"GGWX*@\\& BHH*?/_[WX?=;D=/3P_:VMK0"
+    "V=F)KJXN2)+D=_/0S;I\\CV=\"\"+F:VV$M: K MSA)DK!DR1*L7[\\>>KT>!04%B(F) 0#,F3,',3$Q:&AH@\" (F#ESIMP?3'.#\"2'!XG:[ [(>"
+    "=+2C !Q\"P;@ABXJ*D)>7![U>#^!2#3,O+P_ I?EXDR9-0E96%C0:#3B.@\\OE L=Q\\OF$$!)H%'QO# 7@$.)Y/N!KFWYSM1F[W0Z[W2[7<%F6#?B"
+    "H:T((N1J%0H&2DA)HM5J_TG&Y7&'K*@L5F@<<0F:S.>@USYJ:&GSRR2=!O08AA%P-R[)8LV:-WTM1&HU&O].(=!2 0ZBJJDIN'@Z6IJ8F[-V[-ZC7("
+    "(20JV$8!G/GSI7'HMRLHJ(B3)X\\.4\"YBDS4!!U\"BQ<O#GH->'AX&/W]_4&]!B&$7(TD2>CJZH+%8H%&H[GI=\"HJ*@(^;3/24 TXA$PFD]_](M>"
+    "C5\"JA5JN#>@U\"\"+D:01#P]MMOHZ^OSZ]T]'J]W[7H2$<!.(2^_/)+-#<WASL;A! 2-*(H8OOV[1@:&O(KG:-'CT9]=QH%X!#:LF4+&AH:PIT-0@"
+    "@)*IO-YO>,CYJ:&FS?OCU .8I,%(!#J*VM#1<N7 CJ-3R;,!!\"2+AH-!HPC'_AI:>G!Z=.G0I0CB(3!> 08EG6[_51KT>E4@6]GYD00H*-89BP;!@"
+    "32C0*.H18EO6[5'@]%HLEZB>O$T*B'\\,P07]>AAL%X\"@S:=(D%!04A#L;A)#;F,/A@\"B*X<Y&Q*, '$*\"( 3]IDQ.3D9B8F)0KT$((==B,IG\\"
+    ";CX611&\"( 0H1Y$INNOW$484Q: O4G[JU\"G4U]<']1J$$'(U#,-@UJQ9,!J-?J4C25+4UZ*I!AQ\">7EY2$I*\"NHU:FIJT-C8B$F3)@7U.H00<B"
+    "4LRV+=NG4PF\\U^I9.2D@*[W1Z@7$4F\"L AM&C1(F1D9 3U&IV=G3AV[%A0KT$((5>C4\"A@L5C\\7I&OO+P\\Z&OGAQL%X!\"JJJH\"QP7W(Q=%,"
+    ">!;'A)\"R(T211$[=^Y$55453\";33:=35%04]4W0U <<0OW]_1@9&0GJ-5B6A5*I#.HU\"\"'D:@1!P#OOO./WIC!#0T.PV6P!RE5DH@ <0ILV;4)"
+    "M;6VXLT$((4$C21)J:VLQ.CKJ5SK[]^_'EBU; I2KR$0!.(3V[MV+UM;6H%Y#DJ2@C[0FA)!@:VIJPH$#!\\*=C:\"B !Q\"-IO-[U+A]=!:T(20<."
+    ",XSN]E=X>'AW'QXL4 Y2@R40 .(;5:'?1!6+&QL4A)20GJ-0@A)-ANA[W-:11TE\"DN+H[Z3:P)(9$MVD<O!PH%X\"ACM5HQ=NS8<&>#$'(;XWF>@O"
+    " -H\";H$.)Y/NAS=&^'+;P((9%+H5 @-S?7[^;CVV$\\\"P7@$-+K]4'OTZBKJ\\.V;=N\">@U\"\"+D:AF%PWWWW(2XNSJ]TU&HU=#I=@'(5F2@ A"
+    "U!Y>3FRL[.#>HV&A@;LW+DSJ-<@A)\"K81@&RY<O1VQLK%_IY.7E8?SX\\0'*562B/N 06K9LF=\\WY?78;#:<.7,FJ-<@A)!K<3@<?N^&-'GRY*C?"
+    "C(%JP\"%DL5C\\WB'D>EB6A4JE\"NHU\"\"'D:D11Q(8-&_Q>BC(I*0E965D!RE5DH@ <0C4U-3AUZE10KZ%0*/R> $\\((3=+%$5\\_/''&!@8\\\""
+    "N=UM;6J%^ZEP)P\"&W>O!EU=77AS@8AA 2-)$GHZNKR>P3S_OW[L77KU@#E*C)1  ZA8\\>.H;N[.ZC7$ 2!MB,DA(251J,!P_@77KJZNM#<W!R@'$"
+    "4F\"L A)(IBT\">G,PSC]XU/\"\"$W*U#=8*%X7H8;/:E#B..XH\"^2D9Z>CN+BXJ!>@Q!\"KD:I5 :D$L\"R;-#7S@^WZ'YWMR&KU0J3R83JZFKT]"
+    "?5Y'3.;S;!:K;#;[:BKJ_/9F2DS,Q-%147H[N[&L6/'O)JR&89!04$!LK*RT-+2@O;V=J_7:C0:E)24P&0RH;Z^'KV]O5['3283RLK*((HB:FMK,30"
+    "TY'4\\-345Q<7%Z.OK0T-#@U?_D6=EG=S<7+2WM^/$B1->6RZJ5\"J,&S<.B8F):&AHP-FS9[W2-A@,*\"LK \\=QJ*VM]=EA)3$Q$5:K%8.#@ZBOK"
+    "X?#X? Z;K%84%!0@,[.3C0W-T,0!/D8R[)]OWN1   80DE$0508.W8LTM/3<?SX<9P^?=KKM5JM%E:K%7J]'G5U=;APX8+7\\?CX>%BM5CB=3M35U6"
+    "%D9,3K>$9&!HJ*BM#3TX-CQX[!Y7)Y?2?Y^?G(SL[&R9,G?;:Z5*O5*\"DI05Q<'.KKZ]'3T^-U/\"8F!F5E90\" VMI:# X.>AU/24E!24D)^OO[T"
+    "=#0 *?3Z74\\-S<7>7EYZ.CH0$M+B]=WHE0J4514A.3D9!P[=@Q=75U>K]7K];!:K5\"KU:BKJ_,9,9N0D(#2TE*,CHZBKJ[.9SI*=G8V\"@L+<>;,"
+    "&1P_?MSG.RDL+$1&1@::FYO1T='A]5J-1H/2TE(8C4;4U]?C_/GS7L=C8V-15E8&E\\N%NKHZ# \\/>QU/2TM#<7$Q>GM[T=C8Z/6=*!0*W''''<C)"
+    "R9&_DV_>J\\7%Q3\";S6AH:/#IDC(:C2@K*P/#,*BMK?49R)2<G(R2DA(,# S@Z-&C/O=J3DX.[KCC#IP^?1K-S<U>-4B.XU!45(34U%0<.W8,G9V="
+    "/M]):6DIM%HM:FMK?;Z3&WU^='1TH+>WE[9%O0$4@$,H%'OUWG'''9 D\"2^\\\\(+/7IH5%15XZ:67T-W=C6>??=;G![ABQ0K\\Z[_^*ZJKJ_'\\\\"
+    "\\][!0.52H5__N=_QNK5J[%Y\\V;\\[G>_\\WIM4E(2GGWV68P;-PYOOODFOOSR2Z_CQ<7%>.655^!T.O'RRR^CI:7%Z_C\\^?/QS#//H+:V%K_XQ2"
+    "]@L]GD8PJ% H\\__CB^][WO8>O6K?C-;W[C]< UF4SXV<]^ANG3I^,/?_@#/OGD$Z^T<W-S\\<HKKT\"OU^/?__W?45]?[W6\\JJH*+[[X(IJ;F_'T"
+    "TT_CW+ES7L?7KEV+'__XQ]B]>S=>>^TUKX>>5JO%O_S+OV#QXL7XX(,/\\.Z[[WJ]-CT]'2^\\\\ (L%@M^_>M?H[JZVNOXA D3\\,HKK^#\\^?-X_"
+    "OGG?8+%TJ5+\\=.?_A0'#AS <\\\\]YU5PX3@./_SA#_'@@P_BXX\\_QIMOONGUVH2$!#SSS#.8,&$\"WGKK+6S?OMWK>&%A(5Y]]54 P\"NOO(*FI"
+    "B:OXW???3=^^<M?XNC1H_CYSW_N4WAX[+''\\/WO?Q_;MV_'ZZ^_[O6=&(U&_/2G/\\7LV;/QIS_]\"9LV;?)ZK<5BP4LOO02SV8S77W\\=AP\\?]C"
+    "H^9<H4O/CBBSAUZA2>>>89GT+5_???CY_\\Y\"?8LV</7G[Y9:\\ K=%H\\,033V#Y\\N7XZ*./\\,X[[WB]-B4E!<\\__SSR\\_/Q/__S/_CJJZ^\\"
+    "CENM5KS\\\\LL8'A[&\"R^\\@+:V-J_C]]QS#W[^\\Y^CIJ8&O_SE+[V\"),NR^(=_^ >L7[\\>6[9LP1MOO.'UFX^+B\\,O?O$+3)X\\&;___>]]!"
+    "AD5%!3@I9=>@EJMQFNOO8;&QD:OX[-FS<)SSSV'QL9&_.QG/_,I/*Q;MPX__.$/L6/'#OS'?_R'5T%6K]?CJ:>>POSY\\_'NN^_BPP\\_]'IM5E867"
+    "GSQ1:2FIN*__NN_</#@0:_C-_+\\>/+))[%__WXP#./W=,C;86]S\"L AQ/.\\UT,J&)1*);*RLK!@P0*,&S?.ZUA65A8,!@.2DY-QWWWW^=0$K58K"
+    "E$HE\\O/SL7;M6J\\?+\\NR*\"XNAE*I1$5%A<]U#08#,C(RH-/I,&?.'(P9,\\;K>$I*\"F)C8^%VN[%TZ5*?!T=A82'4:C7&C!F#-6O6>)6N%0H%"
+    ")DR8 ([C,'[\\>'SWN]_U*MEKM5KDY.1 I5)AYLR92$I*\\DH[(2$!9K,9:K4:W_G.=S!QXD2OXSDY.=!JM4A/3\\?*E2M]:N<3)TZ4:W0//OB@5\\"
+    "N 4JE$86$AE$HEIDZ=\"JU6Z_5:D\\F$U-14Z/5ZS)\\_WV>CC(R,#!B-1B@4\"BQ?OMRGUE%<7 R52H6\\O#P\\\\, #7K50EF516EH*CN-07E[N,"
+    "_A.K]<C*RL+&HT&LV?/1F9FIM?QI*0D>;G )4N68,J4*5['\\_/SH=5JD9V=C=6K5_O4SLO+R\\%Q'$I+2WV^$[5:C;R\\/*A4*E155?DL2Q@?'X^D"
+    "I\"3H=#HL6K0(5JO5Z[C%8H%>KT=J:BI6K%CA4SL?/WX\\E$HEQHX=BP<??-\"K%NJIZ2F52DR>/!E*I=+KM4:C$>GIZ=#I=)@[=R[R\\O*\\CJ>EI"
+    "<%D,D&CT>#>>^_U:4DJ*BJ\"6JU&;FXNUJQ9XU4@8QA&;FV9,&$\"UJU;YQ5$=#H=QHP9 [5:C5FS9B$U-=4K[<3$1)C-9G <A\\6+%_O\\UO+R\\J"
+    "#5:I&9F8G5JU?[U,XK*BK <1Q*2DKPT$,/>3UO5\"H5\\O/SH5*I,&W:-)^%,N+BXI\"<G R#P8\"%\"Q?Z=&7=R/-#I5)A[-BQ>/[YYY&<G Q_N-U"
+    "NK^\\U&BD 2 \"BOJ01\"=:O7X_ITZ?CX8<?#G=6\"\"$DHOWG?_XG3IX\\B==??SW<60DXSR UJ@&'T-UWWXW<W-QP9X,00B*>U6I%>GIZN+,15%0"
+    "##B&;S0:52@6]7A_NK!!\"2$0;'AZ&V^T.^OKYX>\"I =,TI! 219$*.H00<@,D2:)YP\"1PMFS9@H:&AG!G@Q!\"(MZA0X=\\1NY'&PK (?3%%U_X"
+    "3/4@A!#BZ^C1HSY3Q*(-!> 0ZN[N]GN'$$((N1WT]_?[S,F/-A2 0TBE4@5]*4I\"\"(D&',=%_=[F%(!#B/;J)820&W,[/\"\\I !-\"\"\"%A0 $"
+    "XA%PN5]\"7HB2$D&AP.^QM3@$XA#B.H[UZ\"2'D!C ,$_5C9F@IRA J+BZ.^J75\"\"$D$+*RLL*=A:\"C !Q\"2Y8L\\=FIAQ!\"B*_*RDJ?'=VB#"
+    ":T%'4(.AP,LR_ILCT8((<2;R^6\"*(I0J]7ASDK T5K08=#:VNJS#RXAA!!?W=W=:&]O#W<V@HH\"< AMW+@11XX<\"7<V\"\"$DXE575V/+EBWASD"
+    "9041]P\"-74U,!L-H<[&X00$O%:6UNC?NU\\J@&'D-UN!\\_SX<X&(81$/)[G8;?;PYV-H*( '$(JE0H<1XT.A!!R/;06-\"&$$$*\"@@(P(800$@8"
+    "4@$/([7;36M\"$$'(#7\"X7G$YGN+,15-0A&4(JE0HJE0H# P,X>?(D>)Z7]PB6) F)B8E(2TM#7U\\?SIX]\"U$4H5 H($D26)9%6EH:XN/CT=O;B"
+    "XL7+\\KI2I($E4J%U-14J%0J='=W8VAH\"$JE$BJ5\"I(D0:/1(\"$A 8(@X,*%\"_*U/7W26JT61J,1#H<#P\\/#$$513E^A4$\"OUT.GTX'G>9\\"
+    "?A4*A@%:K!<NRL-OM<+E<7OTW\"H5\"7M-5$ 2(H@BE4AGU6XT10FZ>T6A$?'Q\\N+,15!2 0VC,F#%(34U%4U,3GGKJ*?3T]\" N+@Y:K1:2)&'IT"
+    "J5XY)%'L&?/'KSUUEL8'1T%R[(0! $&@P&//OHHYLR9@\\\\^^PP[=NR0]\\OD>1ZIJ:EXY)%'D)J:BG???1>'#Q]&?'P\\XN+BX'*YD)N;BQ4K5F!"
+    "X>!@??O@ASIX]B\\3$1.CU>DB2A+%CQV+:M&DX=>H4]N[=\"[O=#H9AY& Y:=(DE):6HK6U%2=.G( D25 H%!!%$5JM%E:K%?'Q\\6AH:$!G9R<,!@"
+    "/,9C-$483!8,\"8,6,  .WM[1@<'$1<7!Q,)I/\\>I/)!)[G,3 P $$0O(*SP6\" P6\"@@$W(;63LV+&(BXL+=S:\"B@)P\"*U8L0(9&1G@>1ZS9L"
+    "W\"Q8L7(4D21%&$)$E(2TL#PS PF\\TH*BJ2EZX4! %:K5:>0^P)6)X ['*Y8#0:P7&<7%N-BXL#QW$8'!P$S_,8&1F!( @0! '#P\\,8&AJ\"W6Z'"
+    "*(H0! $Q,3$011$7+U[$\\>/',30T!([C( @\"5\"H5+!8+!$% <W,SMFW;)@=@E\\L%L]F,U-14&(U&'#Y\\&#4U-7*MGN=YY.3D8/WZ]0\" CS[Z"
+    "\"*VMK7+-G.=Y5%14X*&''L+)DR?QSCOOH*^O#TJE$J(H@F$8S)\\_'_?<<P^V;]^.39LV>37CZW0ZW'___1@_?CPV;-B ??OV0:E4(BXN#FZW&RDI"
+    "*5BY<B7T>CT^^. #M+2T(\"XN#@:# 6ZW&SDY.9@W;Q[Z^_OQ^>>?H[^_7VX5$$41965EF#9M&DZ?/HW#AP_#Y7)Y%4S*RLJ0DY.#NKHZ-#4U0:E4("
+    "CX^'J(H0J?3H:BH\" :# <>.'<.Y<^=@-!KES]I@,\" S,Q.\"(*\"SLU,N]'BN'1\\?C_3T=+A<+@P.#GH53#S?LUZOQ\\C(B/Q]Q<?'>^VXY6E!$"
+    "44QZG>6(=&ELK(RZJ=M4@ .H:E3I\\I__^E/?PK@TMS@T=%1 )<\"JTJE0D5%!8J+B^4@Y_FO7J\\'QW&X\\\\X[45A8*#^,)4F\"6JU&6EH:U&HU%"
+    "BQ8@*JJ*HR.CL)FLT$0!\"0D)$\"GTX'C.,R<.1/#P\\,8'AZ6'^P6BP4LR\\)L-J.LK$P.!I(D@>,XI*:F@F$8Q,3$(\"TM37X?;K<;)I,)&HT&#,"
+    ",@/CY>+F3T]_?+A00/A4(!CN,P,C(B%PXN7KP(413A=#IQ_OQY]/;V0J52R0'8TR3>T].#NKHZKP!L,!@P?_Y\\\"(* TZ=/HZZN#BS+PF@TPNET(C"
+    "<W%PL7+@3'<3AV[!AJ:FI@,IF@U6K!\\SQ&1T<Q<^9,# P,X-\"A0^CJZH):K9:#EL%@P)0I4]#5U85=NW;!;K?+A2*-1@.SV8SL[&RTM+1@QXX=X#"
+    "@.1J,1;K<;\"0D)2$Y.AE*IQ*%#AU!?7P^CT0B=3@>7RP6+Q8(E2Y; X7!@Y\\Z=Z.[NEM<)%P0!5JL5B8F)Z.SLQ.[=NS$R,@*.X^1@6EY>CO'CQZ"
+    ".AH0&'#AV\"0J% 3$R,?\"]-FC0)*2DI.'#@ -K:VJ#1:& P& !<:MXK*RL#PS\"HK:W%P,\" U[V:G)R,DI(2C(R,H+FYV:MP  \"9F9FP6\"PX>_"
+    "8LVMO;Y0*'I[LA,S,3\\?'QZ.SL1&]O+SB.@T:C 0\"HU6JDIJ9\"J53B[-FS&!X>]BIX& P&I*6E011%]/7UP>5R>=WK1J,1L;&Q\\OWMN3;#,')W"
+    "B$:CD7];+,M\"H]'(]Z*G^^-*8S(8AJ%M0R.$7J^7[YEH10$XS+1:+;1:K=>_:32::]YXJ:FI2$E)\\?EWSP,H.SL;DB1Y;6C-, S4:C4T&@W*R\\O"
+    "EXX(@R %<J50B.SL;24E)/GW &HT&',>ALK(2Q<7%\\C%/_W1,3 R42B7FSIV+&3-F0!1%N-UN>3%U3^W]T4<?!<_S7M?V-#&7E)3@Z:>?AMOM]@K:"
+    "<7%Q4*O56+QX,29/GNRU<0C+LDA)28%.I\\/WOO<]K%JU\"BZ7\"Q<O7H3;[8;1:$1&1@:42B6^^]WO8NG2I7 X'!@:&H(@\"$A+2X-6JT524A(6+5"
+    "J$H:$A^>$K21+R\\O*@4JF0D)\" TM)2.)U.N0:L4JF0F)@(AF&0D9&!\\>/'P^UVX^+%BW ZG=!JM?)WHE:KY<#<U=4%I],I!V*>YW'NW#ET=G;*_"
+    ">9NMQN9F9D011'=W=W8O7LW;#:;W#+ <1S,9C.L5BO:VMKPY9=?PNET8F!@ $ZG$PD)\"3\";S8B-C<6V;=NP;=LVB**(P<%!2)*$@H(\"O/322U\""
+    "KU7CMM=?0V-CH=2_-FC4+SS[[+%I;6_'JJZ^BN[M;;K50*!18L6(%'GGD$>S=NQ>__>UOP?,\\4E)2Y(+BVK5K45E9B6W;MF'[]NUR\"XXD24A.3L:"
+    "J5:M@,IFP9<L6-#<WRP4/E\\N%@H(\"K%Z]&G:['5NW;L6%\"Q>\\6B6L5BMFS)B!CHX.^7TG)25!J52\"95F4E)0@-S<7+2TM.'[\\N/S]>7YO>7E"
+    "Y,!@,.''B!\"Y<N\"!_WX(@P&0RH:\"@ !S'H:>G!TZGTR?X)R8F8G1T%!<N7) +6I[?*\\=QX#@.;K=;_NU=WFKA::7RW/^7\\Q0./'GYY@8YEX^E"
+    "^&;:GM^XY][T_'XO+P![_BY)TA4WW[G\\W\"M=V\\-S+-A=0HV-C>CKZ\\/<N7.#>IUPH@!\\\"[I>Z=QSG&59GXGLGAK\"U7@&BEV-)UA>36QL[#7"
+    "S=J6\"@X=>KY?[BJ\\D(2%!?I!>27IZ^C7W6YXP80* 2P_YD9$1 (!2J81&HX%*I<*,&3.\\FGD]!1.699&=G0VCT>@U,,Y3X^<X#N/&C9.;DSVM\""
+    "AJ-!DE)2=!H-)@Z=2K&C1OGU1T0'Q\\/H]$(K5:+>?/F^01_SZ ZB\\6\">^^]5^Z2\\ 3!HJ(BL\"R+TM)2J%0JN%PN# T-P>UV0Z_7(SL[&VJU&M"
+    ".G3T=:6AK<;C=&1D;D 7]FLQD<QV'QXL6HJ*CP^JSR\\O*@T^D0'Q^/J5.GPF:S>2TBDY>7!X[CD)F9B1DS9LB%*K?;#9U.!X/!('>GC!DS1JYQ\\C"
+    "PO=[D D(.%)V!XCBD4\"HR.CN+TZ=,X>_:L?$]Z\"DV>PD1'1P=&1D;0TM(B=Y>83\"98+!:TM+1@Y\\Z=<F&0YWDD)25AW;IUL%@LV+9M&PX>/\"@"
+    "'/:?3B8*\" CS^^.-P.IWX]:]_C=;65GDW'I[G4555A?7KUZ.QL1%OO?46^OO[Y7PK% HL7[X<]]Y[+S9OWHSWWW]?OF\\!(\"8F!BM7KD1141'>>^"
+    "\\]5%=7RY\\IS_/(RLK\"0P\\]A)B8&&S:M GM[>WR^_843!8O7HS>WEY\\_/''Z._O1V)B(C0:#21)0G%Q,29-FH2FIB8<.'! OL>42B642B6*BHJ"
+    "0D9&!8\\>.H;V]70ZXGC$F5JL5L;&Q:&MK@\\UFDX.]*(J(B8E!3DX.7\"X7VMO;,3(R@KBX.'D,B5ZO1VQL+.QV.VPV&R1)@MELEO-_>>'@2@4/S_"
+    "'+-38VHKZ^G@(P(=%$J53Z%!08AH'1:+SJ:V)B8N3FW2LQF\\W77.<[+R_OFGF:,F7*58]E9V<C.SO[JL>+BXN]6B6^:<Z<.9@S9\\Y5CZ];M^ZJQ\\"
+    ":,&8/''W_<IT;D>:A/FC1)KOE?N' !+I<++,LB,3$1*I4*TZ9-0TE)\"5PN%_K[^\\'SO#Q 3ZU68^K4J2@L+/0:)6\\VF^51^1,F3$!.3HY7#3@W-"
+    "Q<LRR(Y.1F5E95P.IWH[^^'P^&0^^ 9AD%B8B(*\"@K@<KG0U]<'I].)V-A8*)5*^?LVF\\UR .9Y'B:3\"1S'P>%P ,!5:XN7\\[0Z> H-DB3)-63"
+    "/WP5!0%Q<'$9&1B\"*(LZ?/X^.C@[YV@Z' QS'R;,,VMK:T-#0X!7\\-1H-W&XWAH>'T=+2@G/GSB$F)D;^[#R?U[ESYW#PX$'P/ ^]7@_@4LT_)B8"
+    "&*2DI:&IJPE=??26WSKA<+B0G)\\L%MGW[]GFU2O \\C[R\\/\"0G)V-X>!A??/$%NKN[830:H5*IY.Z2V;-GHZVM#5]\\\\07L=KM<\"&-9%A45%2"
+    "@M+<7!@P=QY,@1N9 E\" *,1J-<2*RNKD9G9R< X,]__C-T.MTU/_M;'05@0LA5>0+MU5S>8F(T&KV:)Q4*!9*2DI\"4E\"1W>7@>O)Z ZAGK<#G/0"
+    "SLA(0%SYLR1:Y? I8\"H5\"K!<1RRL[.1FIKJD[:G.V7*E\"F8.'$B)$F\"V^V6NTL\\8RE6K5J%I4N7^J1M,!@0&QN+)Y]\\TJ?_6:/10*_7HZRL#"
+    ",\\]]YQ75PIPJ:\"FT6BP?/ER.>]]?7UPN]U0*I7(RLJ\"5JO%BA4K<-===\\EI>_JQ/:TH\\^?/1WEYN?PY\"8(@=[6DI:7AWGOOQ>CH* 8'!^7UD"
+    "CWC.%)34S%Y\\F2Y2\\)NM\\O=3PJ% @:# 8F)B?+WY\"D<>(+IT-\"0W-T!7 K 0T-#<DO\"X. @!@8&T-W=+;?F&(U&S)@Q Q<N7,#APX?E<SS7-"
+    "A@,&#MV+(X<.8(-&S;(XSMXGD=R<C)R<W-A,IGP[KOO8OOV[0\" X>%AK%V[]J;OW5N! H $^+;Y$T((\"3U!$.!T.GVZ0SP#V3S'/;5KSTAA@\\$ "
+    "D\\DD#W 4! &CHZ-RJT1R<C)B8V/1T].#OKX^K[15*A4R,C+ LBQ.GCP)F\\WF-3#.9#+ACCON@,OEPLF3)S$Z.@J'PR'G(S,S$V/'CD5/3P^.'S\\"
+    "N#W#T7+NDI 3Y^?EH:&C \\>/'Y??J*7A45%0@/CX>NW;M0D='!X!+M?:RLC)8K=80?OJA(??+@P(P(800$C*> $QC[0DAA) PH !,\"\"&$A $%8$"
+    "(((20,*  30@@A84 !F!!\"\" D#\"L\"$$$)(&%  )H000L*  C AA! 2!A2 \"2&$D#\"@ $P((82$ 05@0@@A) PH !-\"\"\"%A0 &8$$((\"0"
+    ",*P(000D@84  FA!!\"PH \",\"&$$!(&%( )(820,*  3 @AA(0!!6!\"\"\"$D#\"@ $T(((6&@ \"\"%.Q.$$$+([88!4!WN3!!\"\"\"&WF8[_"
+    "'U_1;QVN'F./     $E%3D2N0F\"\""
+  }
+}
+#Finite State Machines
+#
+#   Stateflow 80000014
+#
+#
+Stateflow {
+  machine {
+    id			    1
+    name		    "s_VI_pd_with_grav_control_14bb"
+    created		    "21-Apr-2018 14:00:19"
+    isLibrary		    0
+    sfVersion		    80000001
+    firstTarget		    11
+  }
+  chart {
+    id			    2
+    machine		    1
+    name		    "tau g\n"
+    windowPosition	    [422 539.941 189 413]
+    viewLimits		    [0 156.75 0 153.75]
+    screen		    [1 1 3600 1200 1.180555555555556]
+    treeNode		    [0 3 0 0]
+    viewObj		    2
+    ssIdHighWaterMark	    9
+    decomposition	    CLUSTER_CHART
+    type		    EML_CHART
+    chartFileNumber	    1
+    disableImplicitCasting  1
+    eml {
+      name		      "fcn"
+    }
+    firstData		    4
+    firstTransition	    9
+    firstJunction	    8
+  }
+  state {
+    id			    3
+    labelString		    "eML_blk_kernel()"
+    position		    [18 64.5 118 66]
+    fontSize		    12
+    chart		    2
+    treeNode		    [2 0 0 0]
+    superState		    SUBCHART
+    subviewer		    2
+    ssIdNumber		    1
+    type		    FUNC_STATE
+    decomposition	    CLUSTER_STATE
+    eml {
+      isEML		      1
+      script		      "function [u1,u2] = fcn(q1,q2)\nGrav=10;     %%Gravity acceleration constant\nM=1;       \nL1=1;\n"
+      "L2=1;\nGz=1;\nbeta=20;\nG1=M*(L1^2+L2^2)+Gz; G2=M*L2^2+Gz;\ng1=M*Grav*(L1*cos(q1)+L2*cos(q1+q2));    g2=M*Grav*L"
+      "2*cos(q1+q2);\nu1=g1;u2=g2;"
+      editorLayout	      "100 M4x1[10 5 700 500]"
+    }
+  }
+  data {
+    id			    4
+    ssIdNumber		    4
+    name		    "q1"
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+    linkNode		    [2 0 5]
+  }
+  data {
+    id			    5
+    ssIdNumber		    5
+    name		    "u1"
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+    linkNode		    [2 4 6]
+  }
+  data {
+    id			    6
+    ssIdNumber		    6
+    name		    "q2"
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+    linkNode		    [2 5 7]
+  }
+  data {
+    id			    7
+    ssIdNumber		    9
+    name		    "u2"
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+    linkNode		    [2 6 0]
+  }
+  junction {
+    id			    8
+    position		    [23.5747 49.5747 7]
+    chart		    2
+    subviewer		    2
+    ssIdNumber		    3
+    type		    CONNECTIVE_JUNCTION
+    linkNode		    [2 0 0]
+  }
+  transition {
+    id			    9
+    labelString		    "{eML_blk_kernel();}"
+    labelPosition	    [28.125 13.875 102.544 14.964]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 23.5747 14.625 0 0]
+    }
+    dst {
+      id		      8
+      intersection	      [1 0 -1 0 23.5747 42.5747 0 0]
+    }
+    midPoint		    [23.5747 24.9468]
+    chart		    2
+    dataLimits		    [21.175 25.975 14.625 42.575]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    2
+    linkNode		    [2 0 0]
+  }
+  instance {
+    id			    10
+    machine		    1
+    name		    "tau g\n"
+    chart		    2
+  }
+  target {
+    id			    11
+    machine		    1
+    name		    "sfun"
+    description		    "Default Simulink S-Function Target."
+    linkNode		    [1 0 0]
+  }
+}
